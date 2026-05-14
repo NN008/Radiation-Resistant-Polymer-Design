@@ -1,0 +1,15 @@
+{
+  "run_dir": "Runs/loop_20250813_124602",
+  "n_candidates": 9,
+  "n_scored": 9,
+  "n_hits": 4,
+  "best_score": 7.688338311858455,
+  "thresholds": {
+    "Tg": 203.7,
+    "MAC": 0.0569
+  },
+  "selected_k": 4,
+  "selected_csv": "Runs/loop_20250813_124602/out_next/selected_next_batch.csv",
+  "labels_csv": "Runs/loop_20250813_124602/out_next/promotion_labels.csv",
+  "models_snapshot": "Runs/loop_20250813_124602/models_snapshot"
+}

@@ -1,0 +1,25 @@
+{
+  "n_rows": 5,
+  "desc_cols_used": [
+    "weighted_score",
+    "MolWt",
+    "ExactMolWt",
+    "HeavyAtomMolWt",
+    "MolLogP",
+    "TPSA",
+    "NumHAcceptors",
+    "NumHDonors",
+    "NumRings",
+    "FractionCSP3",
+    "LabuteASA",
+    "BalabanJ",
+    "BertzCT",
+    "Chi0v",
+    "Chi1n",
+    "Kappa1",
+    "Kappa2"
+  ],
+  "used_independent_models": false,
+  "inputs": "out_next/selected_next_batch.csv",
+  "outputs": "out_next/promotion_labels.csv"
+}

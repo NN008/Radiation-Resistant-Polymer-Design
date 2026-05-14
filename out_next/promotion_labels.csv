@@ -1,0 +1,6 @@
+SMILES,Tg_true,MAC_true,flags,notes
+*C(=O)Nc1ccc(*)n1N,252.9545989490556,0.0568977738778936,ok,proxy=copy(current_pred)
+*C(=O)Nc1ccc(*)nc1C(=O)O,234.71929995372287,0.0569032479948843,ok,proxy=copy(current_pred)
+*C(=O)Nc1ccc(*)nc1O,227.14036963512945,0.0569029027668368,ok,proxy=copy(current_pred)
+*C(=O)NNC(=O)c1ccc(*)nc1,219.9737564152068,0.0568962521486094,ok,proxy=copy(current_pred)
+*C(=O)Nc1ccc(*)c(O)c1O,217.0546231103612,0.056909029830712,ok,proxy=copy(current_pred)

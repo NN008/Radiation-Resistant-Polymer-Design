@@ -1,0 +1,21 @@
+{
+  "run_dir": "/csl/users/2026nnandaku/cluster/PolymerDesign/Runs/loop_20250814_112631",
+  "n_candidates": 8,
+  "n_scored": 8,
+  "n_hits": 5,
+  "best_score": 1.1235613758339815,
+  "weighted_config": {
+    "tg_cutoff": 215.0,
+    "mac_cutoff": 0.0569,
+    "w_tg": 0.7,
+    "w_mac": 0.3,
+    "min_tg_frac": 0.85,
+    "min_mac_frac": 0.85,
+    "norm": "threshold",
+    "eps": 0.0
+  },
+  "selected_k": -1,
+  "selected_csv": "/csl/users/2026nnandaku/cluster/PolymerDesign/Runs/loop_20250814_112631/out_next/selected_next_batch.csv",
+  "labels_csv": "/csl/users/2026nnandaku/cluster/PolymerDesign/Runs/loop_20250814_112631/out_next/promotion_labels.csv",
+  "note": "Models kept frozen; weighted score drives selection."
+}

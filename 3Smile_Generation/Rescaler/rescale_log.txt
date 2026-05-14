@@ -1,0 +1,7 @@
+Generating examples with real Tg and MAC values...
+
+[0] Tg = 440.23°C | MAC = 0.0575 cm²/g | SMILES: *OO(OO(((((((OO))((((N))((OOc((OO(O)Nc((OOO)Ncc(Nc(O)OOO)((O)cc(N)c(O)Nccc((N)Nc(N)Nc(O)Nc(O)N)(O)N)(O)(c((N)(O)((((((((N)(O)(
+[1] Tg = 381.72°C | MAC = 0.0614 cm²/g | SMILES: *O((OO((((((((O)((c1(O)(((O)(c((Oc1(N)(((O))(NN(((c1(N(c((cccc((O)(ccc(O)c(NO)(NO)(((c1(N(c1
+[2] Tg = 251.70°C | MAC = 0.0582 cm²/g | SMILES: *IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
+[3] Tg = 803.11°C | MAC = 0.0607 cm²/g | SMILES: *OOOOOOOOOOOOOOOO(OOOOOO(OO)OOO(OOOO)(OO(OOO(OOO(OOO(O)O((OOON((O)O*OO(OOO(OOO
+[4] Tg = 717.75°C | MAC = 0.0611 cm²/g | SMILES: *nnnnnnnnnnnnnnnnnnnnnnnnnnnnn)nnc(nnnc(nnnnnnnnnnc(Nn=nnncc(nnncnnc6(nnccnccnnnc(nnc6)nnc6)c(nn5c(nnc(cnn5cnncnnc6cnnnccnnc6)

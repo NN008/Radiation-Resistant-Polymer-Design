@@ -1,0 +1,59 @@
+📦 Loaded dataset with 995803 entries.
+
+🔬 Unique atoms found:
+  As : 110 occurrences
+  B  : 190 occurrences
+  Br : 2943 occurrences
+  C  : 6045490 occurrences
+  Ca : 35 occurrences
+  Cd : 18 occurrences
+  Cl : 8015 occurrences
+  Co : 15 occurrences
+  F  : 55825 occurrences
+  Fe : 191 occurrences
+  Ge : 270 occurrences
+  H  : 1041 occurrences
+  I  : 823 occurrences
+  K  : 11 occurrences
+  N  : 370419 occurrences
+  Na : 669 occurrences
+  Ni : 24 occurrences
+  O  : 1250452 occurrences
+  P  : 9511 occurrences
+  Pb : 25 occurrences
+  S  : 106647 occurrences
+  Se : 643 occurrences
+  Si : 9989 occurrences
+  Sn : 672 occurrences
+  Te : 16 occurrences
+  Zn : 52 occurrences
+
+🧪 Example of unparseable SMILES (first 20):
+*CCC[Fe]CCCC(=O)OCCCCOCCCNCC(*)=O
+*CCCC1C=CNC2=CC=C2C(*)CCC1
+*C(=O)CNC(*)C(=O)OCCCCCNC
+*Oc1ccc(CCCNC(=O)NCCCC(=O)C(C)C(*)=O)cc1
+*CC(*)C(C)(C)CCC
+*CC(*)(C)CC=O
+*Oc1ccc(*)cc1O
+*CC(*)COCCCCC(C)=O
+*OC(*)=O
+*Cc1ccc(C(=O)OCCCCCOC(=O)OCCCCCCC(=O)C(*)=O)cc1
+*CCN(CF)c1ccc(*)cc1
+*CN(*)C1=CC=C1
+*Oc1ccc(S(=O)c2ccc(*)cc2OC)c(C)c1C
+*C(=O)C(*)=O
+*CCCOC(=O)Nc1ccc(C(*)=O)cc1OC
+*CCC(*)(C)CC
+*C1=C(/C=C/c2ccc(*)cc2)C=C1
+*OCCC(C)(C)CC(*)=O
+*CCCCCCCCCCCCCCCCNC(=O)CCCCCCCCCCCCC(=O)NCCCCCCCCCCN1CC1=CC(*)=O
+*NC(=O)c1ccc(C(=O)OCCCCCCCCCCCc2ccc(*)cc2)cc1
+
+✅ Successfully computed MAC for 995797 polymers.
+❌ Skipped 6 entries.
+
+📊 Breakdown of skipped entries:
+  RDKit parse failed                 : 6
+
+💾 Saved cleaned dataset to: PI1M_with_Tg_and_MAC.csv

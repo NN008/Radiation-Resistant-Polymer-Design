@@ -1,0 +1,2 @@
+SMILES,Tg_true,MAC_true,flags,notes
+*C(=O)Nc1ccc(*)c(O)c1O,217.0546231103612,0.056909029830712,ok,proxy=copy(current_pred)

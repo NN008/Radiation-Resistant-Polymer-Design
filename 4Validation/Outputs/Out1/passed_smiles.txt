@@ -1,0 +1,13 @@
+*C(=O)NNC(=O)c1ccc(*)nc1
+*C(=O)NNC(=O)c1ccc(*)nc1
+*C(=O)Nc1ccc(*)c(O)c1O
+*C(=O)NNC(=O)c1ccc(*)nc1
+*C(=O)NNC(=O)c1ccc(*)nc1
+*C(=O)NNC(=O)c1ccc(*)nc1
+*C(=O)Nc1ccc(*)n1N
+*C(=O)Nc1ccc(*)n1C(=O)O
+*C(=O)Nc1ccc(NC(=O)c2ccc(*)o2)o1
+*C(=O)Nc1ccc(*)nc1O
+*C(=O)NC(=O)c1ccc(*)nc1N
+*C(=O)Nc1ccc(*)nc1C(=O)O
+*C(=O)Nc1ccc(*)c(O)c1

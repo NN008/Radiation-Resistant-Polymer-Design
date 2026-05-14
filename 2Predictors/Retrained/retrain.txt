@@ -1,0 +1,4 @@
+[pool] updated data/pool.csv → 4 rows
+[warn] pool has only 4 rows; uncertainty estimates may be weak.
+[models] saved scaler + RF ensembles to models
+[meta]   wrote models/metadata.json

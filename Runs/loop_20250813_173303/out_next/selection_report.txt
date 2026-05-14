@@ -1,0 +1,19 @@
+=== Selection Report ===
+
+Total candidates: 4
+RDKit available: True
+Valid RDKit fingerprints: 4/4
+Clusters formed: 4
+Requested/Effective K: 2, Selected: 2
+Min similarity for Butina (if used): 0.700
+
+Selected (sorted by score):
+                  SMILES    Tg_pred  MAC_pred    score  cluster_id  rank_in_cluster
+ *C(=O)Nc1ccc(*)n1C(=O)O 124.947856  0.057759 7.216879           1                1
+*C(=O)NC(=O)c1ccc(*)nc1N 124.614433  0.057759 7.197601           0                1
+
+Cluster sizes:
+  - Cluster 0: 1
+  - Cluster 1: 1
+  - Cluster 2: 1
+  - Cluster 3: 1

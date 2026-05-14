@@ -1,0 +1,2 @@
+[labels] wrote out_next/promotion_labels.csv (4 rows)
+[meta]   wrote out_next/promotion_labels_meta.json

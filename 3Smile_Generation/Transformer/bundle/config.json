@@ -1,0 +1,1 @@
+{"vocab_size": 52, "d_model": 256, "nhead": 4, "num_layers": 6, "dim_feedforward": 1024, "cond_dim": 2, "max_len": 128, "pad_id": 0}

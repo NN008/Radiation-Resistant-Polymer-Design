@@ -1,0 +1,29 @@
+{
+  "desc_cols": [
+    "Score",
+    "MolWt",
+    "ExactMolWt",
+    "HeavyAtomMolWt",
+    "MolLogP",
+    "TPSA",
+    "NumHAcceptors",
+    "NumHDonors",
+    "NumRings",
+    "FractionCSP3",
+    "LabuteASA",
+    "BalabanJ",
+    "BertzCT",
+    "Chi0v",
+    "Chi1n",
+    "Kappa1",
+    "Kappa2"
+  ],
+  "ensemble_k": 5,
+  "n_estimators": 500,
+  "base_seed": 1000,
+  "n_pool_rows": 6,
+  "targets": {
+    "tg": "Tg_true",
+    "mac": "MAC_true"
+  }
+}

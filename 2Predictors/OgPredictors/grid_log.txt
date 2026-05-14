@@ -1,0 +1,826 @@
+Script started
+Dataset loaded: (924242, 22)
+Sampled 75,000 rows for GridSearch
+Data split into train/val
+Starting GridSearchCV
+Fitting 5 folds for each of 144 candidates, totalling 720 fits
+[CV 5/5] END max_depth=15, min_samples_leaf=1, min_samples_split=4, n_estimators=200;, score=-35.150 total time= 5.1min
+[CV 3/5] END max_depth=15, min_samples_leaf=1, min_samples_split=4, n_estimators=400;, score=-34.416 total time= 7.8min
+/csl/users/2026nnandaku/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+[CV 2/5] END max_depth=15, min_samples_leaf=1, min_samples_split=2, n_estimators=200;, score=-34.830 total time= 5.6min
+[CV 1/5] END max_depth=15, min_samples_leaf=1, min_samples_split=4, n_estimators=500;, score=-34.778 total time= 9.6min
+/csl/users/2026nnandaku/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+[CV 1/5] END max_depth=15, min_samples_leaf=1, min_samples_split=4, n_estimators=200;, score=-34.816 total time= 5.5min
+[CV 2/5] END max_depth=15, min_samples_leaf=1, min_samples_split=4, n_estimators=500;, score=-34.733 total time= 9.6min
+/csl/users/2026nnandaku/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+[CV 2/5] END max_depth=15, min_samples_leaf=1, min_samples_split=4, n_estimators=200;, score=-34.789 total time= 5.5min
+[CV 5/5] END max_depth=15, min_samples_leaf=1, min_samples_split=4, n_estimators=500;, score=-35.112 total time= 9.6min
+/csl/users/2026nnandaku/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+[CV 3/5] END max_depth=15, min_samples_leaf=1, min_samples_split=2, n_estimators=200;, score=-34.471 total time= 5.5min
+[CV 1/5] END max_depth=15, min_samples_leaf=1, min_samples_split=6, n_estimators=200;, score=-34.807 total time= 3.8min
+[CV 1/5] END max_depth=15, min_samples_leaf=1, min_samples_split=6, n_estimators=500;, score=-34.763 total time= 9.4min
+[CV 4/5] END max_depth=15, min_samples_leaf=2, min_samples_split=4, n_estimators=500;, score=-35.139 total time= 9.4min
+/csl/users/2026nnandaku/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+[CV 4/5] END max_depth=15, min_samples_leaf=1, min_samples_split=2, n_estimators=400;, score=-35.193 total time= 9.4min
+[CV 3/5] END max_depth=15, min_samples_leaf=1, min_samples_split=6, n_estimators=500;, score=-34.425 total time= 9.5min
+[CV 4/5] END max_depth=15, min_samples_leaf=2, min_samples_split=6, n_estimators=200;, score=-35.182 total time= 3.7min
+[CV 4/5] END max_depth=15, min_samples_leaf=2, min_samples_split=6, n_estimators=500;, score=-35.136 total time= 9.3min
+[CV 4/5] END max_depth=15, min_samples_leaf=4, min_samples_split=6, n_estimators=300;, score=-35.159 total time= 5.4min
+[CV 5/5] END max_depth=20, min_samples_leaf=1, min_samples_split=2, n_estimators=400;, score=-35.049 total time= 9.3min
+[CV 4/5] END max_depth=20, min_samples_leaf=1, min_samples_split=6, n_estimators=300;, score=-35.061 total time= 6.5min
+[CV 2/5] END max_depth=20, min_samples_leaf=2, min_samples_split=2, n_estimators=500;, score=-34.607 total time=10.9min
+[CV 1/5] END max_depth=20, min_samples_leaf=4, min_samples_split=2, n_estimators=300;, score=-34.708 total time= 5.7min
+[CV 2/5] END max_depth=20, min_samples_leaf=4, min_samples_split=4, n_estimators=400;, score=-34.582 total time= 7.6min
+[CV 3/5] END max_depth=25, min_samples_leaf=1, min_samples_split=2, n_estimators=300;, score=-34.364 total time= 7.3min
+[CV 5/5] END max_depth=25, min_samples_leaf=1, min_samples_split=4, n_estimators=400;, score=-35.007 total time= 9.5min
+/csl/users/2026nnandaku/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+[CV 4/5] END max_depth=15, min_samples_leaf=1, min_samples_split=2, n_estimators=300;, score=-35.201 total time= 7.3min
+[CV 1/5] END max_depth=15, min_samples_leaf=1, min_samples_split=6, n_estimators=300;, score=-34.777 total time= 5.8min
+[CV 4/5] END max_depth=15, min_samples_leaf=2, min_samples_split=2, n_estimators=400;, score=-35.143 total time= 7.8min
+[CV 5/5] END max_depth=15, min_samples_leaf=2, min_samples_split=6, n_estimators=400;, score=-35.049 total time= 7.7min
+[CV 2/5] END max_depth=15, min_samples_leaf=4, min_samples_split=4, n_estimators=400;, score=-34.647 total time= 7.3min
+[CV 4/5] END max_depth=20, min_samples_leaf=1, min_samples_split=2, n_estimators=300;, score=-35.111 total time= 7.2min
+[CV 4/5] END max_depth=20, min_samples_leaf=1, min_samples_split=4, n_estimators=500;, score=-35.053 total time=11.4min
+[CV 1/5] END max_depth=20, min_samples_leaf=2, min_samples_split=4, n_estimators=300;, score=-34.676 total time= 6.5min
+[CV 2/5] END max_depth=20, min_samples_leaf=2, min_samples_split=6, n_estimators=400;, score=-34.591 total time= 8.6min
+[CV 4/5] END max_depth=20, min_samples_leaf=4, min_samples_split=4, n_estimators=300;, score=-35.061 total time= 5.9min
+[CV 2/5] END max_depth=20, min_samples_leaf=4, min_samples_split=6, n_estimators=500;, score=-34.576 total time= 9.7min
+[CV 5/5] END max_depth=25, min_samples_leaf=1, min_samples_split=4, n_estimators=500;, score=-34.996 total time=11.4min
+/csl/users/2026nnandaku/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+[CV 4/5] END max_depth=15, min_samples_leaf=1, min_samples_split=2, n_estimators=500;, score=-35.191 total time=11.1min
+[CV 5/5] END max_depth=15, min_samples_leaf=2, min_samples_split=2, n_estimators=200;, score=-35.093 total time= 3.9min
+[CV 2/5] END max_depth=15, min_samples_leaf=2, min_samples_split=4, n_estimators=200;, score=-34.700 total time= 3.8min
+[CV 5/5] END max_depth=15, min_samples_leaf=2, min_samples_split=6, n_estimators=200;, score=-35.089 total time= 3.8min
+[CV 3/5] END max_depth=15, min_samples_leaf=4, min_samples_split=2, n_estimators=200;, score=-34.366 total time= 3.6min
+[CV 5/5] END max_depth=15, min_samples_leaf=4, min_samples_split=2, n_estimators=500;, score=-35.023 total time= 9.0min
+[CV 3/5] END max_depth=20, min_samples_leaf=1, min_samples_split=2, n_estimators=200;, score=-34.425 total time= 4.7min
+[CV 1/5] END max_depth=20, min_samples_leaf=1, min_samples_split=4, n_estimators=300;, score=-34.719 total time= 6.8min
+[CV 4/5] END max_depth=20, min_samples_leaf=1, min_samples_split=6, n_estimators=400;, score=-35.043 total time= 8.7min
+[CV 2/5] END max_depth=20, min_samples_leaf=2, min_samples_split=4, n_estimators=400;, score=-34.618 total time= 8.5min
+[CV 2/5] END max_depth=20, min_samples_leaf=4, min_samples_split=2, n_estimators=300;, score=-34.602 total time= 5.7min
+[CV 3/5] END max_depth=20, min_samples_leaf=4, min_samples_split=4, n_estimators=400;, score=-34.225 total time= 7.6min
+[CV 4/5] END max_depth=25, min_samples_leaf=1, min_samples_split=2, n_estimators=300;, score=-35.135 total time= 7.4min
+[CV 1/5] END max_depth=25, min_samples_leaf=1, min_samples_split=4, n_estimators=500;, score=-34.731 total time=11.7min
+/csl/users/2026nnandaku/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+[CV 2/5] END max_depth=15, min_samples_leaf=2, min_samples_split=4, n_estimators=300;, score=-34.683 total time= 5.6min
+[CV 4/5] END max_depth=15, min_samples_leaf=2, min_samples_split=6, n_estimators=400;, score=-35.142 total time= 7.5min
+[CV 5/5] END max_depth=15, min_samples_leaf=4, min_samples_split=4, n_estimators=300;, score=-35.042 total time= 5.4min
+[CV 4/5] END max_depth=15, min_samples_leaf=4, min_samples_split=6, n_estimators=400;, score=-35.151 total time= 7.2min
+[CV 5/5] END max_depth=20, min_samples_leaf=1, min_samples_split=4, n_estimators=300;, score=-35.038 total time= 6.6min
+[CV 2/5] END max_depth=20, min_samples_leaf=1, min_samples_split=6, n_estimators=500;, score=-34.669 total time=10.7min
+[CV 2/5] END max_depth=20, min_samples_leaf=2, min_samples_split=6, n_estimators=200;, score=-34.648 total time= 4.2min
+[CV 4/5] END max_depth=20, min_samples_leaf=2, min_samples_split=6, n_estimators=500;, score=-34.999 total time=10.3min
+[CV 5/5] END max_depth=20, min_samples_leaf=4, min_samples_split=6, n_estimators=200;, score=-34.959 total time= 3.8min
+[CV 5/5] END max_depth=25, min_samples_leaf=1, min_samples_split=2, n_estimators=200;, score=-35.119 total time= 4.9min
+[CV 2/5] END max_depth=25, min_samples_leaf=1, min_samples_split=4, n_estimators=300;, score=-34.739 total time= 6.8min
+[CV 5/5] END max_depth=25, min_samples_leaf=1, min_samples_split=6, n_estimators=300;, score=-35.014 total time= 6.3min
+[CV 5/5] END max_depth=25, min_samples_leaf=2, min_samples_split=2, n_estimators=400;, score=-34.947 total time= 8.3min
+[CV 1/5] END max_depth=25, min_samples_leaf=2, min_samples_split=6, n_estimators=400;, score=-34.672 total time= 8.4min
+[CV 1/5] END max_depth=25, min_samples_leaf=4, min_samples_split=4, n_estimators=300;, score=-34.708 total time= 5.7min
+[CV 3/5] END max_depth=25, min_samples_leaf=4, min_samples_split=6, n_estimators=400;, score=-34.223 total time= 7.6min
+[CV 5/5] END max_depth=30, min_samples_leaf=1, min_samples_split=4, n_estimators=300;, score=-35.031 total time= 6.9min
+[CV 2/5] END max_depth=30, min_samples_leaf=1, min_samples_split=6, n_estimators=500;, score=-34.671 total time=11.1min
+/csl/users/2026nnandaku/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+[CV 5/5] END max_depth=25, min_samples_leaf=2, min_samples_split=4, n_estimators=300;, score=-34.966 total time= 6.4min
+[CV 2/5] END max_depth=25, min_samples_leaf=2, min_samples_split=6, n_estimators=500;, score=-34.593 total time=10.4min
+[CV 2/5] END max_depth=25, min_samples_leaf=4, min_samples_split=6, n_estimators=200;, score=-34.622 total time= 3.8min
+[CV 2/5] END max_depth=30, min_samples_leaf=1, min_samples_split=2, n_estimators=200;, score=-34.843 total time= 4.9min
+[CV 2/5] END max_depth=30, min_samples_leaf=1, min_samples_split=4, n_estimators=200;, score=-34.781 total time= 4.7min
+[CV 5/5] END max_depth=30, min_samples_leaf=1, min_samples_split=6, n_estimators=200;, score=-35.028 total time= 4.4min
+[CV 2/5] END max_depth=30, min_samples_leaf=2, min_samples_split=2, n_estimators=200;, score=-34.672 total time= 4.3min
+[CV 2/5] END max_depth=30, min_samples_leaf=2, min_samples_split=2, n_estimators=500;, score=-34.604 total time=10.7min
+/csl/users/2026nnandaku/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+[CV 5/5] END max_depth=15, min_samples_leaf=1, min_samples_split=2, n_estimators=400;, score=-35.121 total time= 9.3min
+[CV 4/5] END max_depth=15, min_samples_leaf=1, min_samples_split=6, n_estimators=500;, score=-35.169 total time= 9.6min
+[CV 2/5] END max_depth=15, min_samples_leaf=2, min_samples_split=6, n_estimators=300;, score=-34.671 total time= 5.7min
+[CV 3/5] END max_depth=15, min_samples_leaf=4, min_samples_split=2, n_estimators=400;, score=-34.336 total time= 7.2min
+[CV 5/5] END max_depth=15, min_samples_leaf=4, min_samples_split=6, n_estimators=300;, score=-35.042 total time= 5.4min
+[CV 2/5] END max_depth=20, min_samples_leaf=1, min_samples_split=2, n_estimators=500;, score=-34.739 total time=11.8min
+[CV 4/5] END max_depth=20, min_samples_leaf=2, min_samples_split=2, n_estimators=200;, score=-35.066 total time= 4.3min
+[CV 1/5] END max_depth=20, min_samples_leaf=2, min_samples_split=4, n_estimators=200;, score=-34.712 total time= 4.3min
+[CV 4/5] END max_depth=20, min_samples_leaf=2, min_samples_split=4, n_estimators=500;, score=-35.006 total time=10.7min
+[CV 2/5] END max_depth=20, min_samples_leaf=4, min_samples_split=4, n_estimators=300;, score=-34.602 total time= 5.8min
+[CV 3/5] END max_depth=20, min_samples_leaf=4, min_samples_split=6, n_estimators=400;, score=-34.225 total time= 7.7min
+[CV 1/5] END max_depth=25, min_samples_leaf=1, min_samples_split=4, n_estimators=400;, score=-34.751 total time= 9.1min
+[CV 2/5] END max_depth=25, min_samples_leaf=2, min_samples_split=2, n_estimators=200;, score=-34.672 total time= 4.3min
+[CV 2/5] END max_depth=25, min_samples_leaf=2, min_samples_split=2, n_estimators=500;, score=-34.610 total time=10.7min
+[CV 4/5] END max_depth=25, min_samples_leaf=4, min_samples_split=2, n_estimators=200;, score=-35.078 total time= 3.9min
+[CV 3/5] END max_depth=25, min_samples_leaf=4, min_samples_split=4, n_estimators=200;, score=-34.264 total time= 3.9min
+[CV 5/5] END max_depth=25, min_samples_leaf=4, min_samples_split=4, n_estimators=500;, score=-34.923 total time= 9.7min
+[CV 2/5] END max_depth=30, min_samples_leaf=1, min_samples_split=4, n_estimators=300;, score=-34.732 total time= 6.9min
+[CV 5/5] END max_depth=30, min_samples_leaf=1, min_samples_split=6, n_estimators=300;, score=-35.003 total time= 6.7min
+[CV 4/5] END max_depth=30, min_samples_leaf=2, min_samples_split=2, n_estimators=500;, score=-35.009 total time=10.9min
+/csl/users/2026nnandaku/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+[CV 4/5] END max_depth=25, min_samples_leaf=2, min_samples_split=4, n_estimators=300;, score=-35.038 total time= 6.5min
+[CV 1/5] END max_depth=25, min_samples_leaf=2, min_samples_split=6, n_estimators=500;, score=-34.658 total time=10.6min
+[CV 3/5] END max_depth=25, min_samples_leaf=4, min_samples_split=6, n_estimators=200;, score=-34.264 total time= 3.9min
+[CV 3/5] END max_depth=30, min_samples_leaf=1, min_samples_split=2, n_estimators=200;, score=-34.436 total time= 5.0min
+[CV 4/5] END max_depth=30, min_samples_leaf=1, min_samples_split=4, n_estimators=200;, score=-35.109 total time= 4.6min
+[CV 1/5] END max_depth=30, min_samples_leaf=1, min_samples_split=6, n_estimators=300;, score=-34.701 total time= 6.6min
+[CV 4/5] END max_depth=30, min_samples_leaf=2, min_samples_split=2, n_estimators=300;, score=-35.037 total time= 6.5min
+[CV 1/5] END max_depth=30, min_samples_leaf=2, min_samples_split=4, n_estimators=500;, score=-34.671 total time=10.9min
+/csl/users/2026nnandaku/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+[CV 2/5] END max_depth=15, min_samples_leaf=1, min_samples_split=4, n_estimators=400;, score=-34.745 total time= 8.8min
+[CV 3/5] END max_depth=15, min_samples_leaf=1, min_samples_split=6, n_estimators=400;, score=-34.425 total time= 7.7min
+[CV 5/5] END max_depth=15, min_samples_leaf=2, min_samples_split=4, n_estimators=300;, score=-35.067 total time= 5.7min
+[CV 2/5] END max_depth=15, min_samples_leaf=2, min_samples_split=6, n_estimators=500;, score=-34.648 total time= 9.4min
+[CV 3/5] END max_depth=15, min_samples_leaf=4, min_samples_split=6, n_estimators=200;, score=-34.366 total time= 3.6min
+[CV 1/5] END max_depth=20, min_samples_leaf=1, min_samples_split=2, n_estimators=300;, score=-34.750 total time= 7.2min
+[CV 4/5] END max_depth=20, min_samples_leaf=1, min_samples_split=4, n_estimators=400;, score=-35.063 total time= 8.9min
+[CV 3/5] END max_depth=20, min_samples_leaf=2, min_samples_split=2, n_estimators=400;, score=-34.229 total time= 8.7min
+[CV 1/5] END max_depth=20, min_samples_leaf=2, min_samples_split=6, n_estimators=400;, score=-34.667 total time= 8.3min
+[CV 1/5] END max_depth=20, min_samples_leaf=4, min_samples_split=4, n_estimators=300;, score=-34.708 total time= 5.9min
+[CV 4/5] END max_depth=20, min_samples_leaf=4, min_samples_split=6, n_estimators=400;, score=-35.051 total time= 7.9min
+[CV 2/5] END max_depth=25, min_samples_leaf=1, min_samples_split=4, n_estimators=400;, score=-34.726 total time= 9.5min
+[CV 1/5] END max_depth=25, min_samples_leaf=2, min_samples_split=2, n_estimators=300;, score=-34.684 total time= 6.4min
+[CV 3/5] END max_depth=25, min_samples_leaf=2, min_samples_split=4, n_estimators=400;, score=-34.221 total time= 9.0min
+[CV 5/5] END max_depth=25, min_samples_leaf=4, min_samples_split=2, n_estimators=300;, score=-34.944 total time= 5.8min
+[CV 2/5] END max_depth=25, min_samples_leaf=4, min_samples_split=4, n_estimators=500;, score=-34.577 total time= 9.6min
+[CV 4/5] END max_depth=30, min_samples_leaf=1, min_samples_split=2, n_estimators=500;, score=-35.095 total time=12.6min
+[CV 5/5] END max_depth=30, min_samples_leaf=2, min_samples_split=2, n_estimators=300;, score=-34.978 total time= 6.5min
+[CV 2/5] END max_depth=30, min_samples_leaf=2, min_samples_split=4, n_estimators=500;, score=-34.604 total time=10.9min
+/csl/users/2026nnandaku/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+[CV 2/5] END max_depth=30, min_samples_leaf=4, min_samples_split=2, n_estimators=200;, score=-34.621 total time= 3.8min
+[CV 4/5] END max_depth=30, min_samples_leaf=4, min_samples_split=2, n_estimators=500;, score=-35.043 total time= 9.6min
+/csl/users/2026nnandaku/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+[CV 3/5] END max_depth=30, min_samples_leaf=4, min_samples_split=4, n_estimators=200;, score=-34.265 total time= 3.9min
+[CV 5/5] END max_depth=30, min_samples_leaf=4, min_samples_split=4, n_estimators=500;, score=-34.926 total time= 8.4min
+/csl/users/2026nnandaku/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+[CV 4/5] END max_depth=15, min_samples_leaf=2, min_samples_split=4, n_estimators=300;, score=-35.153 total time= 5.7min
+[CV 1/5] END max_depth=15, min_samples_leaf=2, min_samples_split=6, n_estimators=500;, score=-34.739 total time= 9.3min
+[CV 5/5] END max_depth=15, min_samples_leaf=4, min_samples_split=4, n_estimators=500;, score=-35.023 total time= 8.9min
+[CV 5/5] END max_depth=20, min_samples_leaf=1, min_samples_split=2, n_estimators=500;, score=-35.039 total time=11.6min
+[CV 3/5] END max_depth=20, min_samples_leaf=2, min_samples_split=2, n_estimators=300;, score=-34.245 total time= 6.3min
+[CV 5/5] END max_depth=20, min_samples_leaf=2, min_samples_split=4, n_estimators=400;, score=-34.948 total time= 8.4min
+[CV 4/5] END max_depth=20, min_samples_leaf=4, min_samples_split=2, n_estimators=400;, score=-35.051 total time= 7.6min
+[CV 1/5] END max_depth=20, min_samples_leaf=4, min_samples_split=6, n_estimators=400;, score=-34.712 total time= 7.6min
+[CV 5/5] END max_depth=25, min_samples_leaf=1, min_samples_split=2, n_estimators=500;, score=-35.049 total time=11.9min
+[CV 5/5] END max_depth=25, min_samples_leaf=2, min_samples_split=2, n_estimators=300;, score=-34.966 total time= 6.3min
+[CV 2/5] END max_depth=25, min_samples_leaf=2, min_samples_split=4, n_estimators=500;, score=-34.610 total time=10.8min
+[CV 1/5] END max_depth=25, min_samples_leaf=4, min_samples_split=4, n_estimators=200;, score=-34.747 total time= 3.8min
+[CV 3/5] END max_depth=25, min_samples_leaf=4, min_samples_split=4, n_estimators=500;, score=-34.221 total time= 9.6min
+[CV 3/5] END max_depth=30, min_samples_leaf=1, min_samples_split=4, n_estimators=200;, score=-34.405 total time= 4.6min
+[CV 3/5] END max_depth=30, min_samples_leaf=1, min_samples_split=6, n_estimators=200;, score=-34.366 total time= 4.4min
+[CV 4/5] END max_depth=30, min_samples_leaf=1, min_samples_split=6, n_estimators=500;, score=-35.033 total time=10.9min
+[CV 4/5] END max_depth=30, min_samples_leaf=2, min_samples_split=6, n_estimators=200;, score=-35.062 total time= 4.1min
+[CV 1/5] END max_depth=30, min_samples_leaf=4, min_samples_split=2, n_estimators=200;, score=-34.750 total time= 3.8min
+[CV 3/5] END max_depth=30, min_samples_leaf=4, min_samples_split=2, n_estimators=500;, score=-34.220 total time= 9.5min
+/csl/users/2026nnandaku/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+[CV 5/5] END max_depth=25, min_samples_leaf=2, min_samples_split=4, n_estimators=200;, score=-34.990 total time= 4.3min
+[CV 2/5] END max_depth=25, min_samples_leaf=2, min_samples_split=6, n_estimators=300;, score=-34.617 total time= 6.3min
+[CV 4/5] END max_depth=25, min_samples_leaf=4, min_samples_split=2, n_estimators=400;, score=-35.053 total time= 7.7min
+[CV 1/5] END max_depth=25, min_samples_leaf=4, min_samples_split=6, n_estimators=400;, score=-34.713 total time= 7.8min
+[CV 1/5] END max_depth=30, min_samples_leaf=1, min_samples_split=4, n_estimators=300;, score=-34.744 total time= 7.1min
+[CV 2/5] END max_depth=30, min_samples_leaf=1, min_samples_split=6, n_estimators=400;, score=-34.679 total time= 8.9min
+[CV 5/5] END max_depth=30, min_samples_leaf=2, min_samples_split=4, n_estimators=300;, score=-34.978 total time= 6.6min
+[CV 2/5] END max_depth=30, min_samples_leaf=2, min_samples_split=6, n_estimators=500;, score=-34.594 total time=10.5min
+[CV 2/5] END max_depth=30, min_samples_leaf=4, min_samples_split=6, n_estimators=200;, score=-34.621 total time= 3.9min
+/csl/users/2026nnandaku/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+[CV 4/5] END max_depth=30, min_samples_leaf=4, min_samples_split=4, n_estimators=200;, score=-35.072 total time= 3.8min
+[CV 3/5] END max_depth=30, min_samples_leaf=4, min_samples_split=6, n_estimators=200;, score=-34.265 total time= 4.0min
+/csl/users/2026nnandaku/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+[CV 1/5] END max_depth=15, min_samples_leaf=1, min_samples_split=2, n_estimators=500;, score=-34.792 total time=11.4min
+[CV 2/5] END max_depth=15, min_samples_leaf=2, min_samples_split=2, n_estimators=300;, score=-34.683 total time= 5.6min
+[CV 3/5] END max_depth=15, min_samples_leaf=2, min_samples_split=4, n_estimators=400;, score=-34.348 total time= 7.5min
+[CV 5/5] END max_depth=15, min_samples_leaf=4, min_samples_split=2, n_estimators=300;, score=-35.042 total time= 5.4min
+[CV 2/5] END max_depth=15, min_samples_leaf=4, min_samples_split=4, n_estimators=500;, score=-34.639 total time= 8.9min
+[CV 4/5] END max_depth=20, min_samples_leaf=1, min_samples_split=2, n_estimators=500;, score=-35.089 total time=11.6min
+[CV 2/5] END max_depth=20, min_samples_leaf=2, min_samples_split=2, n_estimators=300;, score=-34.640 total time= 6.3min
+[CV 4/5] END max_depth=20, min_samples_leaf=2, min_samples_split=4, n_estimators=400;, score=-35.015 total time= 8.4min
+[CV 1/5] END max_depth=20, min_samples_leaf=4, min_samples_split=2, n_estimators=400;, score=-34.712 total time= 7.6min
+[CV 3/5] END max_depth=20, min_samples_leaf=4, min_samples_split=6, n_estimators=300;, score=-34.228 total time= 5.7min
+[CV 1/5] END max_depth=25, min_samples_leaf=1, min_samples_split=2, n_estimators=500;, score=-34.763 total time=13.1min
+[CV 5/5] END max_depth=25, min_samples_leaf=2, min_samples_split=2, n_estimators=200;, score=-34.990 total time= 4.3min
+[CV 1/5] END max_depth=25, min_samples_leaf=2, min_samples_split=4, n_estimators=200;, score=-34.727 total time= 4.3min
+[CV 4/5] END max_depth=25, min_samples_leaf=2, min_samples_split=4, n_estimators=500;, score=-35.007 total time=10.8min
+[CV 2/5] END max_depth=25, min_samples_leaf=4, min_samples_split=4, n_estimators=300;, score=-34.609 total time= 5.8min
+[CV 4/5] END max_depth=25, min_samples_leaf=4, min_samples_split=6, n_estimators=400;, score=-35.053 total time= 7.7min
+[CV 2/5] END max_depth=30, min_samples_leaf=1, min_samples_split=4, n_estimators=400;, score=-34.715 total time= 9.1min
+[CV 4/5] END max_depth=30, min_samples_leaf=2, min_samples_split=2, n_estimators=200;, score=-35.055 total time= 4.3min
+[CV 1/5] END max_depth=30, min_samples_leaf=2, min_samples_split=4, n_estimators=200;, score=-34.715 total time= 4.3min
+[CV 5/5] END max_depth=30, min_samples_leaf=2, min_samples_split=4, n_estimators=500;, score=-34.943 total time=10.6min
+[CV 5/5] END max_depth=30, min_samples_leaf=4, min_samples_split=4, n_estimators=200;, score=-34.958 total time= 3.9min
+[CV 4/5] END max_depth=30, min_samples_leaf=4, min_samples_split=6, n_estimators=200;, score=-35.072 total time= 3.8min
+/csl/users/2026nnandaku/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+[CV 1/5] END max_depth=15, min_samples_leaf=4, min_samples_split=4, n_estimators=300;, score=-34.779 total time= 5.5min
+[CV 5/5] END max_depth=15, min_samples_leaf=4, min_samples_split=6, n_estimators=400;, score=-35.036 total time= 7.2min
+[CV 1/5] END max_depth=20, min_samples_leaf=1, min_samples_split=4, n_estimators=400;, score=-34.724 total time= 9.3min
+[CV 1/5] END max_depth=20, min_samples_leaf=2, min_samples_split=2, n_estimators=300;, score=-34.676 total time= 6.4min
+[CV 3/5] END max_depth=20, min_samples_leaf=2, min_samples_split=4, n_estimators=400;, score=-34.229 total time= 8.5min
+[CV 5/5] END max_depth=20, min_samples_leaf=4, min_samples_split=2, n_estimators=300;, score=-34.950 total time= 5.7min
+[CV 2/5] END max_depth=20, min_samples_leaf=4, min_samples_split=4, n_estimators=500;, score=-34.576 total time= 9.6min
+[CV 4/5] END max_depth=25, min_samples_leaf=1, min_samples_split=2, n_estimators=500;, score=-35.108 total time=12.0min
+[CV 4/5] END max_depth=25, min_samples_leaf=2, min_samples_split=2, n_estimators=300;, score=-35.038 total time= 6.4min
+[CV 1/5] END max_depth=25, min_samples_leaf=2, min_samples_split=4, n_estimators=500;, score=-34.672 total time=11.0min
+[CV 2/5] END max_depth=25, min_samples_leaf=4, min_samples_split=4, n_estimators=200;, score=-34.622 total time= 3.8min
+[CV 4/5] END max_depth=25, min_samples_leaf=4, min_samples_split=4, n_estimators=500;, score=-35.044 total time= 9.6min
+[CV 1/5] END max_depth=30, min_samples_leaf=1, min_samples_split=4, n_estimators=200;, score=-34.784 total time= 4.6min
+[CV 4/5] END max_depth=30, min_samples_leaf=1, min_samples_split=6, n_estimators=200;, score=-35.082 total time= 4.4min
+[CV 3/5] END max_depth=30, min_samples_leaf=1, min_samples_split=6, n_estimators=500;, score=-34.293 total time=11.0min
+[CV 5/5] END max_depth=30, min_samples_leaf=2, min_samples_split=6, n_estimators=200;, score=-34.974 total time= 4.2min
+[CV 3/5] END max_depth=30, min_samples_leaf=4, min_samples_split=2, n_estimators=200;, score=-34.265 total time= 3.8min
+[CV 5/5] END max_depth=30, min_samples_leaf=4, min_samples_split=2, n_estimators=500;, score=-34.926 total time= 9.7min
+/csl/users/2026nnandaku/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+[CV 1/5] END max_depth=15, min_samples_leaf=1, min_samples_split=2, n_estimators=300;, score=-34.807 total time= 7.6min
+[CV 4/5] END max_depth=15, min_samples_leaf=1, min_samples_split=6, n_estimators=300;, score=-35.177 total time= 5.7min
+[CV 1/5] END max_depth=15, min_samples_leaf=2, min_samples_split=2, n_estimators=500;, score=-34.741 total time= 9.3min
+[CV 3/5] END max_depth=15, min_samples_leaf=2, min_samples_split=6, n_estimators=500;, score=-34.353 total time= 9.3min
+[CV 3/5] END max_depth=15, min_samples_leaf=4, min_samples_split=6, n_estimators=300;, score=-34.339 total time= 5.4min
+[CV 1/5] END max_depth=20, min_samples_leaf=1, min_samples_split=2, n_estimators=500;, score=-34.740 total time=11.6min
+[CV 3/5] END max_depth=20, min_samples_leaf=2, min_samples_split=2, n_estimators=200;, score=-34.289 total time= 4.3min
+[CV 5/5] END max_depth=20, min_samples_leaf=2, min_samples_split=2, n_estimators=500;, score=-34.934 total time=10.5min
+[CV 5/5] END max_depth=20, min_samples_leaf=4, min_samples_split=2, n_estimators=200;, score=-34.959 total time= 3.9min
+[CV 2/5] END max_depth=20, min_samples_leaf=4, min_samples_split=4, n_estimators=200;, score=-34.614 total time= 3.8min
+[CV 4/5] END max_depth=20, min_samples_leaf=4, min_samples_split=4, n_estimators=500;, score=-35.043 total time= 9.5min
+[CV 2/5] END max_depth=25, min_samples_leaf=1, min_samples_split=4, n_estimators=200;, score=-34.785 total time= 4.5min
+[CV 2/5] END max_depth=25, min_samples_leaf=1, min_samples_split=6, n_estimators=200;, score=-34.735 total time= 5.7min
+[CV 4/5] END max_depth=25, min_samples_leaf=2, min_samples_split=2, n_estimators=200;, score=-35.058 total time= 4.4min
+[CV 5/5] END max_depth=25, min_samples_leaf=2, min_samples_split=2, n_estimators=500;, score=-34.933 total time=10.8min
+[CV 4/5] END max_depth=25, min_samples_leaf=4, min_samples_split=2, n_estimators=300;, score=-35.060 total time= 5.8min
+[CV 1/5] END max_depth=25, min_samples_leaf=4, min_samples_split=4, n_estimators=500;, score=-34.697 total time= 9.7min
+[CV 3/5] END max_depth=30, min_samples_leaf=1, min_samples_split=2, n_estimators=500;, score=-34.352 total time=12.5min
+[CV 2/5] END max_depth=30, min_samples_leaf=2, min_samples_split=2, n_estimators=300;, score=-34.634 total time= 6.5min
+[CV 4/5] END max_depth=30, min_samples_leaf=2, min_samples_split=4, n_estimators=400;, score=-35.024 total time= 8.6min
+[CV 1/5] END max_depth=30, min_samples_leaf=4, min_samples_split=2, n_estimators=400;, score=-34.714 total time= 7.6min
+[CV 5/5] END max_depth=30, min_samples_leaf=4, min_samples_split=6, n_estimators=200;, score=-34.958 total time= 3.9min
+/csl/users/2026nnandaku/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+[CV 4/5] END max_depth=15, min_samples_leaf=2, min_samples_split=4, n_estimators=200;, score=-35.177 total time= 3.8min
+[CV 1/5] END max_depth=15, min_samples_leaf=2, min_samples_split=6, n_estimators=300;, score=-34.743 total time= 5.6min
+[CV 1/5] END max_depth=15, min_samples_leaf=4, min_samples_split=2, n_estimators=400;, score=-34.786 total time= 7.1min
+[CV 2/5] END max_depth=15, min_samples_leaf=4, min_samples_split=6, n_estimators=200;, score=-34.672 total time= 3.6min
+[CV 2/5] END max_depth=20, min_samples_leaf=1, min_samples_split=2, n_estimators=200;, score=-34.814 total time= 4.7min
+[CV 4/5] END max_depth=20, min_samples_leaf=1, min_samples_split=4, n_estimators=200;, score=-35.095 total time= 4.5min
+[CV 2/5] END max_depth=20, min_samples_leaf=1, min_samples_split=6, n_estimators=300;, score=-34.692 total time= 6.4min
+[CV 5/5] END max_depth=20, min_samples_leaf=2, min_samples_split=2, n_estimators=300;, score=-34.970 total time= 6.3min
+[CV 1/5] END max_depth=20, min_samples_leaf=2, min_samples_split=4, n_estimators=500;, score=-34.666 total time=10.5min
+[CV 3/5] END max_depth=20, min_samples_leaf=4, min_samples_split=4, n_estimators=200;, score=-34.265 total time= 3.9min
+[CV 5/5] END max_depth=20, min_samples_leaf=4, min_samples_split=4, n_estimators=500;, score=-34.931 total time= 9.5min
+[CV 3/5] END max_depth=25, min_samples_leaf=1, min_samples_split=4, n_estimators=200;, score=-34.385 total time= 4.6min
+[CV 5/5] END max_depth=25, min_samples_leaf=1, min_samples_split=6, n_estimators=200;, score=-35.037 total time= 4.2min
+[CV 3/5] END max_depth=25, min_samples_leaf=1, min_samples_split=6, n_estimators=500;, score=-34.297 total time=10.7min
+[CV 1/5] END max_depth=25, min_samples_leaf=2, min_samples_split=6, n_estimators=200;, score=-34.707 total time= 4.2min
+[CV 3/5] END max_depth=25, min_samples_leaf=2, min_samples_split=6, n_estimators=500;, score=-34.223 total time=10.6min
+[CV 2/5] END max_depth=25, min_samples_leaf=4, min_samples_split=6, n_estimators=300;, score=-34.609 total time= 5.7min
+[CV 3/5] END max_depth=30, min_samples_leaf=1, min_samples_split=2, n_estimators=400;, score=-34.353 total time= 9.8min
+[CV 3/5] END max_depth=30, min_samples_leaf=1, min_samples_split=6, n_estimators=400;, score=-34.294 total time= 8.8min
+[CV 4/5] END max_depth=30, min_samples_leaf=2, min_samples_split=4, n_estimators=300;, score=-35.037 total time= 6.4min
+[CV 5/5] END max_depth=30, min_samples_leaf=2, min_samples_split=6, n_estimators=400;, score=-34.938 total time= 8.4min
+[CV 4/5] END max_depth=30, min_samples_leaf=4, min_samples_split=4, n_estimators=400;, score=-35.051 total time= 7.5min
+/csl/users/2026nnandaku/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+[CV 3/5] END max_depth=15, min_samples_leaf=1, min_samples_split=4, n_estimators=200;, score=-34.472 total time= 5.5min
+[CV 5/5] END max_depth=15, min_samples_leaf=1, min_samples_split=4, n_estimators=400;, score=-35.122 total time= 7.6min
+[CV 3/5] END max_depth=15, min_samples_leaf=2, min_samples_split=2, n_estimators=400;, score=-34.348 total time= 7.5min
+[CV 3/5] END max_depth=15, min_samples_leaf=2, min_samples_split=6, n_estimators=300;, score=-34.365 total time= 5.6min
+[CV 5/5] END max_depth=15, min_samples_leaf=4, min_samples_split=2, n_estimators=400;, score=-35.036 total time= 7.2min
+[CV 2/5] END max_depth=15, min_samples_leaf=4, min_samples_split=6, n_estimators=400;, score=-34.647 total time= 7.1min
+[CV 4/5] END max_depth=20, min_samples_leaf=1, min_samples_split=4, n_estimators=300;, score=-35.076 total time= 6.6min
+[CV 1/5] END max_depth=20, min_samples_leaf=1, min_samples_split=6, n_estimators=500;, score=-34.686 total time=10.7min
+[CV 3/5] END max_depth=20, min_samples_leaf=2, min_samples_split=4, n_estimators=500;, score=-34.231 total time=10.6min
+[CV 5/5] END max_depth=20, min_samples_leaf=4, min_samples_split=4, n_estimators=200;, score=-34.959 total time= 3.8min
+[CV 2/5] END max_depth=20, min_samples_leaf=4, min_samples_split=6, n_estimators=200;, score=-34.614 total time= 3.8min
+[CV 1/5] END max_depth=25, min_samples_leaf=1, min_samples_split=2, n_estimators=200;, score=-34.822 total time= 4.9min
+[CV 1/5] END max_depth=25, min_samples_leaf=1, min_samples_split=4, n_estimators=200;, score=-34.799 total time= 4.6min
+[CV 1/5] END max_depth=25, min_samples_leaf=1, min_samples_split=6, n_estimators=200;, score=-34.751 total time= 4.8min
+[CV 4/5] END max_depth=25, min_samples_leaf=1, min_samples_split=6, n_estimators=500;, score=-35.040 total time=11.1min
+[CV 1/5] END max_depth=25, min_samples_leaf=2, min_samples_split=6, n_estimators=300;, score=-34.665 total time= 6.3min
+[CV 3/5] END max_depth=25, min_samples_leaf=4, min_samples_split=2, n_estimators=400;, score=-34.223 total time= 7.7min
+[CV 5/5] END max_depth=25, min_samples_leaf=4, min_samples_split=6, n_estimators=300;, score=-34.944 total time= 5.7min
+[CV 1/5] END max_depth=30, min_samples_leaf=1, min_samples_split=2, n_estimators=500;, score=-34.767 total time=12.3min
+[CV 3/5] END max_depth=30, min_samples_leaf=2, min_samples_split=2, n_estimators=200;, score=-34.282 total time= 4.3min
+[CV 5/5] END max_depth=30, min_samples_leaf=2, min_samples_split=2, n_estimators=500;, score=-34.943 total time=10.8min
+[CV 2/5] END max_depth=30, min_samples_leaf=4, min_samples_split=2, n_estimators=300;, score=-34.606 total time= 5.7min
+[CV 3/5] END max_depth=30, min_samples_leaf=4, min_samples_split=4, n_estimators=400;, score=-34.222 total time= 7.5min
+/csl/users/2026nnandaku/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+[CV 5/5] END max_depth=15, min_samples_leaf=1, min_samples_split=4, n_estimators=300;, score=-35.128 total time= 7.4min
+[CV 5/5] END max_depth=15, min_samples_leaf=1, min_samples_split=6, n_estimators=300;, score=-35.114 total time= 5.7min
+[CV 2/5] END max_depth=15, min_samples_leaf=2, min_samples_split=2, n_estimators=500;, score=-34.650 total time= 9.5min
+[CV 4/5] END max_depth=15, min_samples_leaf=4, min_samples_split=2, n_estimators=200;, score=-35.174 total time= 3.6min
+[CV 1/5] END max_depth=15, min_samples_leaf=4, min_samples_split=4, n_estimators=200;, score=-34.815 total time= 3.6min
+[CV 3/5] END max_depth=15, min_samples_leaf=4, min_samples_split=4, n_estimators=500;, score=-34.334 total time= 9.1min
+[CV 2/5] END max_depth=20, min_samples_leaf=1, min_samples_split=4, n_estimators=200;, score=-34.762 total time= 4.7min
+[CV 1/5] END max_depth=20, min_samples_leaf=1, min_samples_split=6, n_estimators=200;, score=-34.740 total time= 4.3min
+[CV 3/5] END max_depth=20, min_samples_leaf=1, min_samples_split=6, n_estimators=500;, score=-34.286 total time=10.8min
+[CV 5/5] END max_depth=20, min_samples_leaf=2, min_samples_split=6, n_estimators=200;, score=-34.990 total time= 4.2min
+[CV 2/5] END max_depth=20, min_samples_leaf=4, min_samples_split=2, n_estimators=200;, score=-34.614 total time= 3.9min
+[CV 4/5] END max_depth=20, min_samples_leaf=4, min_samples_split=2, n_estimators=500;, score=-35.043 total time= 9.7min
+[CV 1/5] END max_depth=25, min_samples_leaf=1, min_samples_split=2, n_estimators=300;, score=-34.775 total time= 7.5min
+[CV 3/5] END max_depth=25, min_samples_leaf=1, min_samples_split=4, n_estimators=400;, score=-34.303 total time= 9.1min
+[CV 2/5] END max_depth=25, min_samples_leaf=2, min_samples_split=2, n_estimators=400;, score=-34.623 total time= 8.5min
+[CV 3/5] END max_depth=25, min_samples_leaf=2, min_samples_split=6, n_estimators=300;, score=-34.239 total time= 6.4min
+[CV 5/5] END max_depth=25, min_samples_leaf=4, min_samples_split=2, n_estimators=400;, score=-34.939 total time= 7.9min
+[CV 2/5] END max_depth=25, min_samples_leaf=4, min_samples_split=6, n_estimators=400;, score=-34.587 total time= 7.8min
+[CV 4/5] END max_depth=30, min_samples_leaf=1, min_samples_split=4, n_estimators=300;, score=-35.088 total time= 6.9min
+[CV 4/5] END max_depth=30, min_samples_leaf=1, min_samples_split=6, n_estimators=400;, score=-35.041 total time= 8.9min
+[CV 1/5] END max_depth=30, min_samples_leaf=2, min_samples_split=4, n_estimators=400;, score=-34.687 total time= 8.7min
+[CV 1/5] END max_depth=30, min_samples_leaf=4, min_samples_split=2, n_estimators=300;, score=-34.709 total time= 5.8min
+[CV 1/5] END max_depth=30, min_samples_leaf=4, min_samples_split=4, n_estimators=400;, score=-34.714 total time= 7.7min
+/csl/users/2026nnandaku/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+[CV 4/5] END max_depth=15, min_samples_leaf=1, min_samples_split=4, n_estimators=300;, score=-35.185 total time= 6.9min
+[CV 3/5] END max_depth=15, min_samples_leaf=1, min_samples_split=6, n_estimators=200;, score=-34.488 total time= 3.8min
+[CV 2/5] END max_depth=15, min_samples_leaf=2, min_samples_split=2, n_estimators=200;, score=-34.700 total time= 3.8min
+[CV 4/5] END max_depth=15, min_samples_leaf=2, min_samples_split=2, n_estimators=500;, score=-35.139 total time= 9.6min
+[CV 2/5] END max_depth=15, min_samples_leaf=4, min_samples_split=2, n_estimators=300;, score=-34.666 total time= 5.4min
+[CV 3/5] END max_depth=15, min_samples_leaf=4, min_samples_split=4, n_estimators=400;, score=-34.336 total time= 7.3min
+[CV 5/5] END max_depth=20, min_samples_leaf=1, min_samples_split=2, n_estimators=300;, score=-35.069 total time= 7.2min
+[CV 4/5] END max_depth=20, min_samples_leaf=1, min_samples_split=6, n_estimators=200;, score=-35.086 total time= 4.4min
+[CV 1/5] END max_depth=20, min_samples_leaf=2, min_samples_split=2, n_estimators=200;, score=-34.712 total time= 4.3min
+[CV 1/5] END max_depth=20, min_samples_leaf=2, min_samples_split=2, n_estimators=500;, score=-34.666 total time=10.7min
+[CV 3/5] END max_depth=20, min_samples_leaf=4, min_samples_split=2, n_estimators=200;, score=-34.265 total time= 3.8min
+[CV 5/5] END max_depth=20, min_samples_leaf=4, min_samples_split=2, n_estimators=500;, score=-34.931 total time= 9.6min
+[CV 2/5] END max_depth=25, min_samples_leaf=1, min_samples_split=2, n_estimators=300;, score=-34.789 total time= 7.4min
+[CV 4/5] END max_depth=25, min_samples_leaf=1, min_samples_split=4, n_estimators=400;, score=-35.067 total time= 9.0min
+[CV 3/5] END max_depth=25, min_samples_leaf=2, min_samples_split=2, n_estimators=400;, score=-34.221 total time= 8.6min
+[CV 5/5] END max_depth=25, min_samples_leaf=2, min_samples_split=6, n_estimators=300;, score=-34.952 total time= 6.4min
+[CV 2/5] END max_depth=25, min_samples_leaf=4, min_samples_split=2, n_estimators=500;, score=-34.577 total time= 9.7min
+[CV 4/5] END max_depth=25, min_samples_leaf=4, min_samples_split=6, n_estimators=500;, score=-35.044 total time= 9.6min
+[CV 5/5] END max_depth=30, min_samples_leaf=1, min_samples_split=4, n_estimators=500;, score=-35.009 total time=11.6min
+[CV 2/5] END max_depth=30, min_samples_leaf=2, min_samples_split=4, n_estimators=300;, score=-34.634 total time= 6.6min
+[CV 4/5] END max_depth=30, min_samples_leaf=2, min_samples_split=6, n_estimators=400;, score=-35.021 total time= 8.5min
+[CV 2/5] END max_depth=30, min_samples_leaf=4, min_samples_split=4, n_estimators=400;, score=-34.586 total time= 7.6min
+/csl/users/2026nnandaku/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+[CV 3/5] END max_depth=15, min_samples_leaf=1, min_samples_split=4, n_estimators=300;, score=-34.437 total time= 7.0min
+[CV 5/5] END max_depth=15, min_samples_leaf=1, min_samples_split=6, n_estimators=200;, score=-35.126 total time= 3.8min
+[CV 4/5] END max_depth=15, min_samples_leaf=2, min_samples_split=2, n_estimators=200;, score=-35.177 total time= 3.8min
+[CV 1/5] END max_depth=15, min_samples_leaf=2, min_samples_split=4, n_estimators=200;, score=-34.770 total time= 3.8min
+[CV 2/5] END max_depth=15, min_samples_leaf=2, min_samples_split=4, n_estimators=500;, score=-34.650 total time= 9.7min
+[CV 3/5] END max_depth=15, min_samples_leaf=4, min_samples_split=4, n_estimators=300;, score=-34.339 total time= 5.6min
+[CV 2/5] END max_depth=15, min_samples_leaf=4, min_samples_split=6, n_estimators=500;, score=-34.639 total time= 9.0min
+[CV 2/5] END max_depth=20, min_samples_leaf=1, min_samples_split=4, n_estimators=500;, score=-34.693 total time=11.2min
+[CV 4/5] END max_depth=20, min_samples_leaf=2, min_samples_split=4, n_estimators=200;, score=-35.066 total time= 4.3min
+[CV 3/5] END max_depth=20, min_samples_leaf=2, min_samples_split=6, n_estimators=200;, score=-34.268 total time= 4.3min
+[CV 1/5] END max_depth=20, min_samples_leaf=4, min_samples_split=2, n_estimators=200;, score=-34.752 total time= 3.8min
+[CV 3/5] END max_depth=20, min_samples_leaf=4, min_samples_split=2, n_estimators=500;, score=-34.221 total time= 9.7min
+[CV 2/5] END max_depth=25, min_samples_leaf=1, min_samples_split=2, n_estimators=200;, score=-34.841 total time= 4.9min
+[CV 5/5] END max_depth=25, min_samples_leaf=1, min_samples_split=4, n_estimators=200;, score=-35.067 total time= 4.6min
+[CV 2/5] END max_depth=25, min_samples_leaf=1, min_samples_split=6, n_estimators=300;, score=-34.683 total time= 6.5min
+[CV 3/5] END max_depth=25, min_samples_leaf=2, min_samples_split=2, n_estimators=300;, score=-34.237 total time= 6.4min
+[CV 5/5] END max_depth=25, min_samples_leaf=2, min_samples_split=4, n_estimators=400;, score=-34.947 total time= 8.7min
+[CV 2/5] END max_depth=25, min_samples_leaf=4, min_samples_split=2, n_estimators=400;, score=-34.587 total time= 7.7min
+[CV 1/5] END max_depth=25, min_samples_leaf=4, min_samples_split=6, n_estimators=300;, score=-34.708 total time= 5.9min
+[CV 4/5] END max_depth=30, min_samples_leaf=1, min_samples_split=2, n_estimators=400;, score=-35.111 total time= 9.9min
+[CV 5/5] END max_depth=30, min_samples_leaf=1, min_samples_split=6, n_estimators=400;, score=-34.986 total time= 8.9min
+[CV 2/5] END max_depth=30, min_samples_leaf=2, min_samples_split=4, n_estimators=400;, score=-34.615 total time= 8.8min
+[CV 3/5] END max_depth=30, min_samples_leaf=4, min_samples_split=2, n_estimators=300;, score=-34.224 total time= 5.8min
+[CV 5/5] END max_depth=30, min_samples_leaf=4, min_samples_split=4, n_estimators=400;, score=-34.943 total time= 7.5min
+/csl/users/2026nnandaku/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+[CV 5/5] END max_depth=15, min_samples_leaf=1, min_samples_split=2, n_estimators=200;, score=-35.150 total time= 5.6min
+[CV 4/5] END max_depth=15, min_samples_leaf=1, min_samples_split=4, n_estimators=500;, score=-35.173 total time= 9.6min
+[CV 5/5] END max_depth=15, min_samples_leaf=2, min_samples_split=4, n_estimators=200;, score=-35.093 total time= 3.7min
+[CV 3/5] END max_depth=15, min_samples_leaf=2, min_samples_split=6, n_estimators=200;, score=-34.396 total time= 3.8min
+[CV 2/5] END max_depth=15, min_samples_leaf=4, min_samples_split=2, n_estimators=200;, score=-34.672 total time= 3.5min
+[CV 1/5] END max_depth=15, min_samples_leaf=4, min_samples_split=2, n_estimators=500;, score=-34.770 total time= 8.9min
+[CV 4/5] END max_depth=15, min_samples_leaf=4, min_samples_split=6, n_estimators=500;, score=-35.144 total time= 9.0min
+[CV 3/5] END max_depth=20, min_samples_leaf=1, min_samples_split=6, n_estimators=200;, score=-34.358 total time= 4.3min
+[CV 5/5] END max_depth=20, min_samples_leaf=1, min_samples_split=6, n_estimators=500;, score=-34.985 total time=10.7min
+[CV 2/5] END max_depth=20, min_samples_leaf=2, min_samples_split=6, n_estimators=300;, score=-34.617 total time= 6.1min
+[CV 2/5] END max_depth=20, min_samples_leaf=4, min_samples_split=2, n_estimators=400;, score=-34.582 total time= 7.5min
+[CV 4/5] END max_depth=20, min_samples_leaf=4, min_samples_split=6, n_estimators=300;, score=-35.061 total time= 5.7min
+[CV 5/5] END max_depth=25, min_samples_leaf=1, min_samples_split=2, n_estimators=400;, score=-35.059 total time=11.0min
+[CV 2/5] END max_depth=25, min_samples_leaf=1, min_samples_split=6, n_estimators=500;, score=-34.655 total time=10.6min
+[CV 3/5] END max_depth=25, min_samples_leaf=2, min_samples_split=4, n_estimators=500;, score=-34.224 total time=10.8min
+[CV 5/5] END max_depth=25, min_samples_leaf=4, min_samples_split=4, n_estimators=200;, score=-34.952 total time= 3.8min
+[CV 4/5] END max_depth=25, min_samples_leaf=4, min_samples_split=6, n_estimators=200;, score=-35.078 total time= 3.8min
+[CV 4/5] END max_depth=30, min_samples_leaf=1, min_samples_split=2, n_estimators=200;, score=-35.154 total time= 4.9min
+[CV 5/5] END max_depth=30, min_samples_leaf=1, min_samples_split=4, n_estimators=200;, score=-35.066 total time= 4.6min
+[CV 2/5] END max_depth=30, min_samples_leaf=1, min_samples_split=6, n_estimators=300;, score=-34.695 total time= 6.5min
+[CV 3/5] END max_depth=30, min_samples_leaf=2, min_samples_split=2, n_estimators=300;, score=-34.237 total time= 6.4min
+[CV 5/5] END max_depth=30, min_samples_leaf=2, min_samples_split=4, n_estimators=400;, score=-34.959 total time= 8.5min
+[CV 3/5] END max_depth=30, min_samples_leaf=4, min_samples_split=2, n_estimators=400;, score=-34.222 total time= 7.6min
+[CV 3/5] END max_depth=30, min_samples_leaf=4, min_samples_split=6, n_estimators=300;, score=-34.224 total time= 5.2min
+/csl/users/2026nnandaku/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+[CV 1/5] END max_depth=15, min_samples_leaf=1, min_samples_split=4, n_estimators=300;, score=-34.796 total time= 7.3min
+[CV 3/5] END max_depth=15, min_samples_leaf=1, min_samples_split=6, n_estimators=300;, score=-34.444 total time= 5.6min
+[CV 5/5] END max_depth=15, min_samples_leaf=2, min_samples_split=2, n_estimators=400;, score=-35.049 total time= 7.5min
+[CV 1/5] END max_depth=15, min_samples_leaf=2, min_samples_split=6, n_estimators=400;, score=-34.753 total time= 7.4min
+[CV 5/5] END max_depth=15, min_samples_leaf=4, min_samples_split=4, n_estimators=200;, score=-35.053 total time= 3.6min
+[CV 5/5] END max_depth=15, min_samples_leaf=4, min_samples_split=6, n_estimators=200;, score=-35.053 total time= 3.6min
+[CV 2/5] END max_depth=20, min_samples_leaf=1, min_samples_split=2, n_estimators=300;, score=-34.764 total time= 7.0min
+[CV 3/5] END max_depth=20, min_samples_leaf=1, min_samples_split=4, n_estimators=400;, score=-34.308 total time= 9.1min
+[CV 2/5] END max_depth=20, min_samples_leaf=2, min_samples_split=2, n_estimators=400;, score=-34.618 total time= 8.4min
+[CV 4/5] END max_depth=20, min_samples_leaf=2, min_samples_split=6, n_estimators=300;, score=-35.025 total time= 6.2min
+[CV 1/5] END max_depth=20, min_samples_leaf=4, min_samples_split=2, n_estimators=500;, score=-34.694 total time= 9.9min
+[CV 5/5] END max_depth=20, min_samples_leaf=4, min_samples_split=6, n_estimators=500;, score=-34.931 total time= 9.7min
+[CV 4/5] END max_depth=25, min_samples_leaf=1, min_samples_split=6, n_estimators=200;, score=-35.082 total time= 5.1min
+[CV 5/5] END max_depth=25, min_samples_leaf=1, min_samples_split=6, n_estimators=500;, score=-34.984 total time=11.1min
+[CV 4/5] END max_depth=25, min_samples_leaf=2, min_samples_split=6, n_estimators=300;, score=-35.029 total time= 6.4min
+[CV 1/5] END max_depth=25, min_samples_leaf=4, min_samples_split=2, n_estimators=500;, score=-34.697 total time= 9.8min
+[CV 5/5] END max_depth=25, min_samples_leaf=4, min_samples_split=6, n_estimators=500;, score=-34.923 total time= 9.7min
+[CV 2/5] END max_depth=30, min_samples_leaf=1, min_samples_split=6, n_estimators=200;, score=-34.754 total time= 4.5min
+[CV 5/5] END max_depth=30, min_samples_leaf=1, min_samples_split=6, n_estimators=500;, score=-34.979 total time=11.1min
+[CV 2/5] END max_depth=30, min_samples_leaf=2, min_samples_split=6, n_estimators=300;, score=-34.624 total time= 6.2min
+[CV 2/5] END max_depth=30, min_samples_leaf=4, min_samples_split=2, n_estimators=400;, score=-34.586 total time= 7.6min
+[CV 2/5] END max_depth=30, min_samples_leaf=4, min_samples_split=6, n_estimators=300;, score=-34.606 total time= 5.2min
+/csl/users/2026nnandaku/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+[CV 1/5] END max_depth=30, min_samples_leaf=2, min_samples_split=6, n_estimators=200;, score=-34.708 total time= 4.2min
+[CV 3/5] END max_depth=30, min_samples_leaf=2, min_samples_split=6, n_estimators=500;, score=-34.213 total time=10.5min
+[CV 1/5] END max_depth=30, min_samples_leaf=4, min_samples_split=6, n_estimators=300;, score=-34.709 total time= 5.4min
+/csl/users/2026nnandaku/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+[CV 5/5] END max_depth=15, min_samples_leaf=1, min_samples_split=2, n_estimators=300;, score=-35.124 total time= 7.4min
+[CV 2/5] END max_depth=15, min_samples_leaf=1, min_samples_split=6, n_estimators=400;, score=-34.726 total time= 7.5min
+[CV 1/5] END max_depth=15, min_samples_leaf=2, min_samples_split=4, n_estimators=300;, score=-34.747 total time= 5.6min
+[CV 2/5] END max_depth=15, min_samples_leaf=2, min_samples_split=6, n_estimators=400;, score=-34.657 total time= 7.4min
+[CV 2/5] END max_depth=15, min_samples_leaf=4, min_samples_split=4, n_estimators=300;, score=-34.666 total time= 5.4min
+[CV 3/5] END max_depth=15, min_samples_leaf=4, min_samples_split=6, n_estimators=400;, score=-34.336 total time= 7.4min
+[CV 2/5] END max_depth=20, min_samples_leaf=1, min_samples_split=4, n_estimators=400;, score=-34.703 total time= 8.8min
+[CV 5/5] END max_depth=20, min_samples_leaf=2, min_samples_split=2, n_estimators=200;, score=-34.993 total time= 4.2min
+[CV 5/5] END max_depth=20, min_samples_leaf=2, min_samples_split=4, n_estimators=200;, score=-34.993 total time= 4.2min
+[CV 4/5] END max_depth=20, min_samples_leaf=2, min_samples_split=6, n_estimators=200;, score=-35.055 total time= 4.1min
+[CV 5/5] END max_depth=20, min_samples_leaf=2, min_samples_split=6, n_estimators=500;, score=-34.933 total time=10.3min
+[CV 2/5] END max_depth=20, min_samples_leaf=4, min_samples_split=6, n_estimators=300;, score=-34.602 total time= 5.7min
+[CV 4/5] END max_depth=25, min_samples_leaf=1, min_samples_split=2, n_estimators=400;, score=-35.120 total time=10.7min
+[CV 5/5] END max_depth=25, min_samples_leaf=1, min_samples_split=6, n_estimators=400;, score=-34.994 total time= 8.6min
+[CV 2/5] END max_depth=25, min_samples_leaf=2, min_samples_split=4, n_estimators=400;, score=-34.623 total time= 8.6min
+[CV 1/5] END max_depth=25, min_samples_leaf=4, min_samples_split=2, n_estimators=300;, score=-34.708 total time= 5.8min
+[CV 3/5] END max_depth=25, min_samples_leaf=4, min_samples_split=4, n_estimators=400;, score=-34.223 total time= 7.6min
+[CV 3/5] END max_depth=30, min_samples_leaf=1, min_samples_split=2, n_estimators=300;, score=-34.385 total time= 7.4min
+[CV 1/5] END max_depth=30, min_samples_leaf=1, min_samples_split=4, n_estimators=500;, score=-34.725 total time=11.5min
+[CV 4/5] END max_depth=30, min_samples_leaf=2, min_samples_split=4, n_estimators=200;, score=-35.055 total time= 4.3min
+[CV 3/5] END max_depth=30, min_samples_leaf=2, min_samples_split=6, n_estimators=200;, score=-34.266 total time= 4.2min
+[CV 4/5] END max_depth=30, min_samples_leaf=2, min_samples_split=6, n_estimators=500;, score=-35.010 total time=10.4min
+[CV 5/5] END max_depth=30, min_samples_leaf=4, min_samples_split=6, n_estimators=300;, score=-34.947 total time= 5.1min
+/csl/users/2026nnandaku/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+[CV 2/5] END max_depth=15, min_samples_leaf=1, min_samples_split=2, n_estimators=400;, score=-34.773 total time= 9.5min
+[CV 5/5] END max_depth=15, min_samples_leaf=1, min_samples_split=6, n_estimators=500;, score=-35.096 total time= 9.4min
+[CV 2/5] END max_depth=15, min_samples_leaf=2, min_samples_split=6, n_estimators=200;, score=-34.691 total time= 3.8min
+[CV 1/5] END max_depth=15, min_samples_leaf=4, min_samples_split=2, n_estimators=200;, score=-34.815 total time= 3.6min
+[CV 3/5] END max_depth=15, min_samples_leaf=4, min_samples_split=2, n_estimators=500;, score=-34.334 total time= 9.0min
+[CV 1/5] END max_depth=20, min_samples_leaf=1, min_samples_split=2, n_estimators=200;, score=-34.794 total time= 4.7min
+[CV 5/5] END max_depth=20, min_samples_leaf=1, min_samples_split=4, n_estimators=200;, score=-35.069 total time= 4.4min
+[CV 1/5] END max_depth=20, min_samples_leaf=1, min_samples_split=6, n_estimators=300;, score=-34.697 total time= 6.5min
+[CV 4/5] END max_depth=20, min_samples_leaf=2, min_samples_split=2, n_estimators=300;, score=-35.033 total time= 6.5min
+[CV 2/5] END max_depth=20, min_samples_leaf=2, min_samples_split=4, n_estimators=500;, score=-34.607 total time=10.9min
+[CV 4/5] END max_depth=20, min_samples_leaf=4, min_samples_split=4, n_estimators=200;, score=-35.080 total time= 3.8min
+[CV 1/5] END max_depth=20, min_samples_leaf=4, min_samples_split=6, n_estimators=200;, score=-34.752 total time= 3.8min
+[CV 4/5] END max_depth=20, min_samples_leaf=4, min_samples_split=6, n_estimators=500;, score=-35.043 total time= 9.6min
+[CV 3/5] END max_depth=25, min_samples_leaf=1, min_samples_split=6, n_estimators=200;, score=-34.376 total time= 5.3min
+[CV 1/5] END max_depth=25, min_samples_leaf=2, min_samples_split=2, n_estimators=200;, score=-34.727 total time= 4.5min
+[CV 4/5] END max_depth=25, min_samples_leaf=2, min_samples_split=2, n_estimators=500;, score=-35.007 total time=10.7min
+[CV 2/5] END max_depth=25, min_samples_leaf=4, min_samples_split=2, n_estimators=300;, score=-34.609 total time= 5.8min
+[CV 4/5] END max_depth=25, min_samples_leaf=4, min_samples_split=4, n_estimators=400;, score=-35.053 total time= 7.6min
+[CV 5/5] END max_depth=30, min_samples_leaf=1, min_samples_split=2, n_estimators=300;, score=-35.062 total time= 7.4min
+[CV 2/5] END max_depth=30, min_samples_leaf=1, min_samples_split=4, n_estimators=500;, score=-34.703 total time=11.4min
+[CV 3/5] END max_depth=30, min_samples_leaf=2, min_samples_split=4, n_estimators=200;, score=-34.282 total time= 4.3min
+[CV 2/5] END max_depth=30, min_samples_leaf=2, min_samples_split=6, n_estimators=200;, score=-34.652 total time= 4.2min
+[CV 5/5] END max_depth=30, min_samples_leaf=2, min_samples_split=6, n_estimators=500;, score=-34.926 total time=10.4min
+[CV 4/5] END max_depth=30, min_samples_leaf=4, min_samples_split=6, n_estimators=300;, score=-35.056 total time= 5.3min
+/csl/users/2026nnandaku/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+[CV 3/5] END max_depth=15, min_samples_leaf=1, min_samples_split=2, n_estimators=300;, score=-34.437 total time= 7.2min
+[CV 2/5] END max_depth=15, min_samples_leaf=1, min_samples_split=6, n_estimators=300;, score=-34.736 total time= 5.7min
+[CV 2/5] END max_depth=15, min_samples_leaf=2, min_samples_split=2, n_estimators=400;, score=-34.665 total time= 7.6min
+[CV 5/5] END max_depth=15, min_samples_leaf=2, min_samples_split=6, n_estimators=300;, score=-35.063 total time= 5.6min
+[CV 2/5] END max_depth=15, min_samples_leaf=4, min_samples_split=2, n_estimators=500;, score=-34.639 total time= 8.9min
+[CV 5/5] END max_depth=15, min_samples_leaf=4, min_samples_split=6, n_estimators=500;, score=-35.023 total time= 9.0min
+[CV 5/5] END max_depth=20, min_samples_leaf=1, min_samples_split=6, n_estimators=200;, score=-35.046 total time= 4.3min
+[CV 2/5] END max_depth=20, min_samples_leaf=2, min_samples_split=2, n_estimators=200;, score=-34.669 total time= 4.2min
+[CV 5/5] END max_depth=20, min_samples_leaf=2, min_samples_split=2, n_estimators=400;, score=-34.948 total time= 8.6min
+[CV 4/5] END max_depth=20, min_samples_leaf=2, min_samples_split=6, n_estimators=400;, score=-35.010 total time= 8.3min
+[CV 1/5] END max_depth=20, min_samples_leaf=4, min_samples_split=4, n_estimators=400;, score=-34.712 total time= 7.7min
+[CV 5/5] END max_depth=25, min_samples_leaf=1, min_samples_split=2, n_estimators=300;, score=-35.076 total time= 7.4min
+[CV 2/5] END max_depth=25, min_samples_leaf=1, min_samples_split=4, n_estimators=500;, score=-34.709 total time=11.4min
+[CV 2/5] END max_depth=25, min_samples_leaf=2, min_samples_split=4, n_estimators=200;, score=-34.672 total time= 4.3min
+[CV 2/5] END max_depth=25, min_samples_leaf=2, min_samples_split=6, n_estimators=200;, score=-34.645 total time= 4.2min
+[CV 4/5] END max_depth=25, min_samples_leaf=2, min_samples_split=6, n_estimators=500;, score=-35.003 total time=10.7min
+[CV 4/5] END max_depth=25, min_samples_leaf=4, min_samples_split=6, n_estimators=300;, score=-35.060 total time= 5.8min
+[CV 2/5] END max_depth=30, min_samples_leaf=1, min_samples_split=2, n_estimators=500;, score=-34.763 total time=12.5min
+[CV 1/5] END max_depth=30, min_samples_leaf=2, min_samples_split=2, n_estimators=300;, score=-34.681 total time= 6.5min
+[CV 3/5] END max_depth=30, min_samples_leaf=2, min_samples_split=4, n_estimators=400;, score=-34.221 total time= 8.8min
+[CV 4/5] END max_depth=30, min_samples_leaf=4, min_samples_split=2, n_estimators=300;, score=-35.056 total time= 5.8min
+[CV 1/5] END max_depth=30, min_samples_leaf=4, min_samples_split=4, n_estimators=500;, score=-34.698 total time= 8.8min
+/csl/users/2026nnandaku/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+[CV 2/5] END max_depth=15, min_samples_leaf=1, min_samples_split=2, n_estimators=500;, score=-34.765 total time=11.5min
+[CV 3/5] END max_depth=15, min_samples_leaf=2, min_samples_split=2, n_estimators=300;, score=-34.360 total time= 5.8min
+[CV 5/5] END max_depth=15, min_samples_leaf=2, min_samples_split=4, n_estimators=400;, score=-35.049 total time= 7.7min
+[CV 4/5] END max_depth=15, min_samples_leaf=4, min_samples_split=2, n_estimators=400;, score=-35.151 total time= 7.2min
+[CV 1/5] END max_depth=15, min_samples_leaf=4, min_samples_split=6, n_estimators=400;, score=-34.786 total time= 7.2min
+[CV 3/5] END max_depth=20, min_samples_leaf=1, min_samples_split=4, n_estimators=200;, score=-34.381 total time= 4.5min
+[CV 2/5] END max_depth=20, min_samples_leaf=1, min_samples_split=6, n_estimators=200;, score=-34.742 total time= 4.3min
+[CV 4/5] END max_depth=20, min_samples_leaf=1, min_samples_split=6, n_estimators=500;, score=-35.034 total time=10.8min
+[CV 1/5] END max_depth=20, min_samples_leaf=2, min_samples_split=6, n_estimators=300;, score=-34.659 total time= 6.3min
+[CV 3/5] END max_depth=20, min_samples_leaf=4, min_samples_split=2, n_estimators=400;, score=-34.225 total time= 7.7min
+[CV 5/5] END max_depth=20, min_samples_leaf=4, min_samples_split=6, n_estimators=300;, score=-34.950 total time= 5.8min
+[CV 2/5] END max_depth=25, min_samples_leaf=1, min_samples_split=2, n_estimators=500;, score=-34.763 total time=12.3min
+[CV 3/5] END max_depth=25, min_samples_leaf=2, min_samples_split=2, n_estimators=200;, score=-34.278 total time= 4.4min
+[CV 3/5] END max_depth=25, min_samples_leaf=2, min_samples_split=2, n_estimators=500;, score=-34.224 total time=10.8min
+[CV 5/5] END max_depth=25, min_samples_leaf=4, min_samples_split=2, n_estimators=200;, score=-34.952 total time= 3.9min
+[CV 4/5] END max_depth=25, min_samples_leaf=4, min_samples_split=4, n_estimators=200;, score=-35.078 total time= 3.9min
+[CV 1/5] END max_depth=25, min_samples_leaf=4, min_samples_split=6, n_estimators=200;, score=-34.747 total time= 3.9min
+[CV 3/5] END max_depth=25, min_samples_leaf=4, min_samples_split=6, n_estimators=500;, score=-34.221 total time= 9.8min
+[CV 1/5] END max_depth=30, min_samples_leaf=1, min_samples_split=6, n_estimators=200;, score=-34.746 total time= 4.6min
+[CV 1/5] END max_depth=30, min_samples_leaf=2, min_samples_split=2, n_estimators=200;, score=-34.715 total time= 4.3min
+[CV 3/5] END max_depth=30, min_samples_leaf=2, min_samples_split=2, n_estimators=500;, score=-34.227 total time=10.9min
+[CV 4/5] END max_depth=30, min_samples_leaf=4, min_samples_split=2, n_estimators=200;, score=-35.072 total time= 3.8min
+[CV 1/5] END max_depth=30, min_samples_leaf=4, min_samples_split=4, n_estimators=200;, score=-34.750 total time= 3.8min
+[CV 2/5] END max_depth=30, min_samples_leaf=4, min_samples_split=4, n_estimators=500;, score=-34.577 total time= 8.8min
+/csl/users/2026nnandaku/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+[CV 5/5] END max_depth=30, min_samples_leaf=4, min_samples_split=2, n_estimators=300;, score=-34.947 total time= 5.8min
+[CV 3/5] END max_depth=30, min_samples_leaf=4, min_samples_split=4, n_estimators=500;, score=-34.220 total time= 8.8min
+/csl/users/2026nnandaku/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+[CV 5/5] END max_depth=15, min_samples_leaf=1, min_samples_split=2, n_estimators=500;, score=-35.115 total time=11.3min
+[CV 1/5] END max_depth=15, min_samples_leaf=2, min_samples_split=2, n_estimators=300;, score=-34.747 total time= 5.7min
+[CV 4/5] END max_depth=15, min_samples_leaf=2, min_samples_split=4, n_estimators=400;, score=-35.143 total time= 7.6min
+[CV 2/5] END max_depth=15, min_samples_leaf=4, min_samples_split=2, n_estimators=400;, score=-34.647 total time= 7.2min
+[CV 1/5] END max_depth=15, min_samples_leaf=4, min_samples_split=6, n_estimators=300;, score=-34.779 total time= 5.4min
+[CV 4/5] END max_depth=20, min_samples_leaf=1, min_samples_split=2, n_estimators=400;, score=-35.101 total time= 9.5min
+[CV 1/5] END max_depth=20, min_samples_leaf=1, min_samples_split=6, n_estimators=400;, score=-34.702 total time= 8.8min
+[CV 5/5] END max_depth=20, min_samples_leaf=2, min_samples_split=4, n_estimators=300;, score=-34.970 total time= 6.5min
+[CV 2/5] END max_depth=20, min_samples_leaf=2, min_samples_split=6, n_estimators=500;, score=-34.585 total time=10.4min
+[CV 4/5] END max_depth=20, min_samples_leaf=4, min_samples_split=6, n_estimators=200;, score=-35.080 total time= 3.9min
+[CV 4/5] END max_depth=25, min_samples_leaf=1, min_samples_split=2, n_estimators=200;, score=-35.160 total time= 5.0min
+[CV 3/5] END max_depth=25, min_samples_leaf=1, min_samples_split=4, n_estimators=300;, score=-34.338 total time= 7.0min
+[CV 2/5] END max_depth=25, min_samples_leaf=1, min_samples_split=6, n_estimators=400;, score=-34.659 total time= 8.7min
+[CV 2/5] END max_depth=25, min_samples_leaf=2, min_samples_split=4, n_estimators=300;, score=-34.645 total time= 6.5min
+[CV 4/5] END max_depth=25, min_samples_leaf=2, min_samples_split=6, n_estimators=400;, score=-35.013 total time= 8.5min
+[CV 1/5] END max_depth=25, min_samples_leaf=4, min_samples_split=4, n_estimators=400;, score=-34.713 total time= 7.8min
+[CV 1/5] END max_depth=30, min_samples_leaf=1, min_samples_split=2, n_estimators=400;, score=-34.784 total time=10.0min
+[CV 4/5] END max_depth=30, min_samples_leaf=1, min_samples_split=6, n_estimators=300;, score=-35.051 total time= 6.8min
+[CV 1/5] END max_depth=30, min_samples_leaf=2, min_samples_split=2, n_estimators=500;, score=-34.671 total time=10.9min
+[CV 5/5] END max_depth=30, min_samples_leaf=4, min_samples_split=2, n_estimators=200;, score=-34.958 total time= 3.9min
+[CV 2/5] END max_depth=30, min_samples_leaf=4, min_samples_split=4, n_estimators=200;, score=-34.621 total time= 3.9min
+[CV 4/5] END max_depth=30, min_samples_leaf=4, min_samples_split=4, n_estimators=500;, score=-35.043 total time= 8.8min
+/csl/users/2026nnandaku/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+[CV 1/5] END max_depth=15, min_samples_leaf=1, min_samples_split=4, n_estimators=400;, score=-34.802 total time= 8.9min
+[CV 5/5] END max_depth=15, min_samples_leaf=1, min_samples_split=6, n_estimators=400;, score=-35.104 total time= 7.6min
+[CV 1/5] END max_depth=15, min_samples_leaf=2, min_samples_split=4, n_estimators=400;, score=-34.756 total time= 7.6min
+[CV 1/5] END max_depth=15, min_samples_leaf=4, min_samples_split=2, n_estimators=300;, score=-34.779 total time= 5.5min
+[CV 4/5] END max_depth=15, min_samples_leaf=4, min_samples_split=4, n_estimators=400;, score=-35.151 total time= 7.4min
+[CV 1/5] END max_depth=20, min_samples_leaf=1, min_samples_split=2, n_estimators=400;, score=-34.756 total time= 9.8min
+[CV 5/5] END max_depth=20, min_samples_leaf=1, min_samples_split=6, n_estimators=400;, score=-34.998 total time= 8.6min
+[CV 4/5] END max_depth=20, min_samples_leaf=2, min_samples_split=4, n_estimators=300;, score=-35.033 total time= 6.4min
+[CV 1/5] END max_depth=20, min_samples_leaf=2, min_samples_split=6, n_estimators=500;, score=-34.653 total time=10.5min
+[CV 3/5] END max_depth=20, min_samples_leaf=4, min_samples_split=6, n_estimators=200;, score=-34.265 total time= 3.9min
+[CV 3/5] END max_depth=25, min_samples_leaf=1, min_samples_split=2, n_estimators=200;, score=-34.409 total time= 5.0min
+[CV 1/5] END max_depth=25, min_samples_leaf=1, min_samples_split=4, n_estimators=300;, score=-34.757 total time= 6.9min
+[CV 1/5] END max_depth=25, min_samples_leaf=1, min_samples_split=6, n_estimators=400;, score=-34.714 total time= 8.6min
+[CV 1/5] END max_depth=25, min_samples_leaf=2, min_samples_split=4, n_estimators=300;, score=-34.684 total time= 6.6min
+[CV 3/5] END max_depth=25, min_samples_leaf=2, min_samples_split=6, n_estimators=400;, score=-34.220 total time= 8.5min
+[CV 5/5] END max_depth=25, min_samples_leaf=4, min_samples_split=4, n_estimators=300;, score=-34.944 total time= 5.9min
+[CV 2/5] END max_depth=25, min_samples_leaf=4, min_samples_split=6, n_estimators=500;, score=-34.577 total time= 9.6min
+[CV 4/5] END max_depth=30, min_samples_leaf=1, min_samples_split=4, n_estimators=500;, score=-35.056 total time=11.6min
+[CV 5/5] END max_depth=30, min_samples_leaf=2, min_samples_split=4, n_estimators=200;, score=-35.004 total time= 4.3min
+[CV 1/5] END max_depth=30, min_samples_leaf=2, min_samples_split=6, n_estimators=300;, score=-34.669 total time= 6.4min
+[CV 4/5] END max_depth=30, min_samples_leaf=4, min_samples_split=2, n_estimators=400;, score=-35.051 total time= 7.9min
+[CV 1/5] END max_depth=30, min_samples_leaf=4, min_samples_split=6, n_estimators=400;, score=-34.714 total time= 6.7min
+/csl/users/2026nnandaku/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+[CV 4/5] END max_depth=15, min_samples_leaf=1, min_samples_split=4, n_estimators=200;, score=-35.201 total time= 5.5min
+[CV 3/5] END max_depth=15, min_samples_leaf=1, min_samples_split=4, n_estimators=500;, score=-34.419 total time= 9.6min
+[CV 3/5] END max_depth=15, min_samples_leaf=2, min_samples_split=4, n_estimators=200;, score=-34.389 total time= 3.7min
+[CV 5/5] END max_depth=15, min_samples_leaf=2, min_samples_split=4, n_estimators=500;, score=-35.037 total time= 9.5min
+[CV 1/5] END max_depth=15, min_samples_leaf=4, min_samples_split=4, n_estimators=400;, score=-34.786 total time= 7.2min
+[CV 3/5] END max_depth=20, min_samples_leaf=1, min_samples_split=2, n_estimators=300;, score=-34.364 total time= 7.1min
+[CV 5/5] END max_depth=20, min_samples_leaf=1, min_samples_split=4, n_estimators=400;, score=-35.019 total time= 8.9min
+[CV 4/5] END max_depth=20, min_samples_leaf=2, min_samples_split=2, n_estimators=400;, score=-35.015 total time= 8.4min
+[CV 5/5] END max_depth=20, min_samples_leaf=2, min_samples_split=6, n_estimators=300;, score=-34.965 total time= 6.2min
+[CV 2/5] END max_depth=20, min_samples_leaf=4, min_samples_split=2, n_estimators=500;, score=-34.576 total time= 9.4min
+[CV 3/5] END max_depth=20, min_samples_leaf=4, min_samples_split=6, n_estimators=500;, score=-34.221 total time= 9.4min
+[CV 4/5] END max_depth=25, min_samples_leaf=1, min_samples_split=4, n_estimators=500;, score=-35.053 total time=11.3min
+[CV 4/5] END max_depth=25, min_samples_leaf=2, min_samples_split=4, n_estimators=200;, score=-35.058 total time= 4.4min
+[CV 4/5] END max_depth=25, min_samples_leaf=2, min_samples_split=6, n_estimators=200;, score=-35.061 total time= 4.2min
+[CV 1/5] END max_depth=25, min_samples_leaf=4, min_samples_split=2, n_estimators=200;, score=-34.747 total time= 3.9min
+[CV 3/5] END max_depth=25, min_samples_leaf=4, min_samples_split=2, n_estimators=500;, score=-34.221 total time= 9.5min
+[CV 1/5] END max_depth=30, min_samples_leaf=1, min_samples_split=2, n_estimators=200;, score=-34.824 total time= 4.9min
+[CV 5/5] END max_depth=30, min_samples_leaf=1, min_samples_split=2, n_estimators=500;, score=-35.032 total time=12.2min
+[CV 1/5] END max_depth=30, min_samples_leaf=2, min_samples_split=2, n_estimators=400;, score=-34.687 total time= 8.6min
+[CV 3/5] END max_depth=30, min_samples_leaf=2, min_samples_split=6, n_estimators=300;, score=-34.226 total time= 6.2min
+[CV 5/5] END max_depth=30, min_samples_leaf=4, min_samples_split=2, n_estimators=400;, score=-34.943 total time= 7.6min
+[CV 2/5] END max_depth=30, min_samples_leaf=4, min_samples_split=6, n_estimators=400;, score=-34.586 total time= 6.6min
+/csl/users/2026nnandaku/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+[CV 3/5] END max_depth=15, min_samples_leaf=1, min_samples_split=2, n_estimators=500;, score=-34.418 total time=11.7min
+[CV 4/5] END max_depth=15, min_samples_leaf=2, min_samples_split=2, n_estimators=300;, score=-35.153 total time= 5.6min
+[CV 1/5] END max_depth=15, min_samples_leaf=2, min_samples_split=4, n_estimators=500;, score=-34.741 total time= 9.4min
+[CV 3/5] END max_depth=15, min_samples_leaf=4, min_samples_split=4, n_estimators=200;, score=-34.366 total time= 3.6min
+[CV 1/5] END max_depth=15, min_samples_leaf=4, min_samples_split=6, n_estimators=200;, score=-34.815 total time= 3.6min
+[CV 3/5] END max_depth=15, min_samples_leaf=4, min_samples_split=6, n_estimators=500;, score=-34.334 total time= 8.9min
+[CV 3/5] END max_depth=20, min_samples_leaf=1, min_samples_split=4, n_estimators=500;, score=-34.303 total time=11.1min
+[CV 2/5] END max_depth=20, min_samples_leaf=2, min_samples_split=4, n_estimators=200;, score=-34.669 total time= 4.2min
+[CV 5/5] END max_depth=20, min_samples_leaf=2, min_samples_split=4, n_estimators=500;, score=-34.934 total time=10.5min
+[CV 3/5] END max_depth=20, min_samples_leaf=4, min_samples_split=4, n_estimators=300;, score=-34.228 total time= 5.7min
+[CV 5/5] END max_depth=20, min_samples_leaf=4, min_samples_split=6, n_estimators=400;, score=-34.945 total time= 7.6min
+[CV 5/5] END max_depth=25, min_samples_leaf=1, min_samples_split=4, n_estimators=300;, score=-35.030 total time= 7.5min
+[CV 1/5] END max_depth=25, min_samples_leaf=1, min_samples_split=6, n_estimators=500;, score=-34.696 total time=10.9min
+[CV 5/5] END max_depth=25, min_samples_leaf=2, min_samples_split=4, n_estimators=500;, score=-34.933 total time=10.7min
+[CV 3/5] END max_depth=25, min_samples_leaf=4, min_samples_split=4, n_estimators=300;, score=-34.224 total time= 5.7min
+[CV 5/5] END max_depth=25, min_samples_leaf=4, min_samples_split=6, n_estimators=400;, score=-34.939 total time= 7.6min
+[CV 1/5] END max_depth=30, min_samples_leaf=1, min_samples_split=4, n_estimators=400;, score=-34.745 total time= 9.2min
+[CV 5/5] END max_depth=30, min_samples_leaf=2, min_samples_split=2, n_estimators=200;, score=-35.004 total time= 4.3min
+[CV 2/5] END max_depth=30, min_samples_leaf=2, min_samples_split=4, n_estimators=200;, score=-34.672 total time= 4.3min
+[CV 4/5] END max_depth=30, min_samples_leaf=2, min_samples_split=4, n_estimators=500;, score=-35.009 total time=10.7min
+[CV 1/5] END max_depth=30, min_samples_leaf=4, min_samples_split=4, n_estimators=300;, score=-34.709 total time= 5.7min
+[CV 3/5] END max_depth=30, min_samples_leaf=4, min_samples_split=6, n_estimators=400;, score=-34.222 total time= 6.1min
+/csl/users/2026nnandaku/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+[CV 1/5] END max_depth=15, min_samples_leaf=1, min_samples_split=2, n_estimators=400;, score=-34.810 total time= 9.4min
+[CV 1/5] END max_depth=15, min_samples_leaf=2, min_samples_split=2, n_estimators=200;, score=-34.770 total time= 3.8min
+[CV 3/5] END max_depth=15, min_samples_leaf=2, min_samples_split=2, n_estimators=500;, score=-34.348 total time= 9.5min
+[CV 5/5] END max_depth=15, min_samples_leaf=4, min_samples_split=2, n_estimators=200;, score=-35.053 total time= 3.6min
+[CV 2/5] END max_depth=15, min_samples_leaf=4, min_samples_split=4, n_estimators=200;, score=-34.672 total time= 3.6min
+[CV 4/5] END max_depth=15, min_samples_leaf=4, min_samples_split=4, n_estimators=500;, score=-35.144 total time= 9.0min
+[CV 1/5] END max_depth=20, min_samples_leaf=1, min_samples_split=4, n_estimators=200;, score=-34.762 total time= 4.5min
+[CV 5/5] END max_depth=20, min_samples_leaf=1, min_samples_split=4, n_estimators=500;, score=-35.002 total time=11.2min
+[CV 2/5] END max_depth=20, min_samples_leaf=2, min_samples_split=4, n_estimators=300;, score=-34.640 total time= 6.4min
+[CV 3/5] END max_depth=20, min_samples_leaf=2, min_samples_split=6, n_estimators=400;, score=-34.221 total time= 8.3min
+[CV 5/5] END max_depth=20, min_samples_leaf=4, min_samples_split=4, n_estimators=300;, score=-34.950 total time= 5.8min
+[CV 1/5] END max_depth=20, min_samples_leaf=4, min_samples_split=6, n_estimators=500;, score=-34.694 total time= 9.6min
+[CV 3/5] END max_depth=25, min_samples_leaf=1, min_samples_split=4, n_estimators=500;, score=-34.304 total time=11.2min
+[CV 3/5] END max_depth=25, min_samples_leaf=2, min_samples_split=4, n_estimators=200;, score=-34.278 total time= 4.3min
+[CV 3/5] END max_depth=25, min_samples_leaf=2, min_samples_split=6, n_estimators=200;, score=-34.278 total time= 4.3min
+[CV 5/5] END max_depth=25, min_samples_leaf=2, min_samples_split=6, n_estimators=500;, score=-34.924 total time=10.5min
+[CV 3/5] END max_depth=25, min_samples_leaf=4, min_samples_split=6, n_estimators=300;, score=-34.224 total time= 5.8min
+[CV 5/5] END max_depth=30, min_samples_leaf=1, min_samples_split=2, n_estimators=400;, score=-35.044 total time= 9.9min
+[CV 1/5] END max_depth=30, min_samples_leaf=1, min_samples_split=6, n_estimators=500;, score=-34.697 total time=11.1min
+[CV 3/5] END max_depth=30, min_samples_leaf=2, min_samples_split=4, n_estimators=500;, score=-34.227 total time=10.9min
+[CV 2/5] END max_depth=30, min_samples_leaf=4, min_samples_split=4, n_estimators=300;, score=-34.606 total time= 5.8min
+[CV 4/5] END max_depth=30, min_samples_leaf=4, min_samples_split=6, n_estimators=400;, score=-35.051 total time= 6.3min
+/csl/users/2026nnandaku/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+[CV 2/5] END max_depth=15, min_samples_leaf=1, min_samples_split=4, n_estimators=300;, score=-34.760 total time= 7.0min
+[CV 4/5] END max_depth=15, min_samples_leaf=1, min_samples_split=6, n_estimators=200;, score=-35.203 total time= 3.8min
+[CV 3/5] END max_depth=15, min_samples_leaf=2, min_samples_split=2, n_estimators=200;, score=-34.389 total time= 3.8min
+[CV 5/5] END max_depth=15, min_samples_leaf=2, min_samples_split=2, n_estimators=500;, score=-35.037 total time= 9.5min
+[CV 3/5] END max_depth=15, min_samples_leaf=4, min_samples_split=2, n_estimators=300;, score=-34.339 total time= 5.4min
+[CV 5/5] END max_depth=15, min_samples_leaf=4, min_samples_split=4, n_estimators=400;, score=-35.036 total time= 7.4min
+[CV 2/5] END max_depth=20, min_samples_leaf=1, min_samples_split=2, n_estimators=400;, score=-34.750 total time= 9.5min
+[CV 3/5] END max_depth=20, min_samples_leaf=1, min_samples_split=6, n_estimators=300;, score=-34.311 total time= 6.7min
+[CV 4/5] END max_depth=20, min_samples_leaf=2, min_samples_split=2, n_estimators=500;, score=-35.006 total time=11.0min
+[CV 4/5] END max_depth=20, min_samples_leaf=4, min_samples_split=2, n_estimators=300;, score=-35.061 total time= 5.8min
+[CV 5/5] END max_depth=20, min_samples_leaf=4, min_samples_split=4, n_estimators=400;, score=-34.945 total time= 7.8min
+[CV 2/5] END max_depth=25, min_samples_leaf=1, min_samples_split=2, n_estimators=400;, score=-34.774 total time=10.0min
+[CV 3/5] END max_depth=25, min_samples_leaf=1, min_samples_split=6, n_estimators=300;, score=-34.322 total time= 6.5min
+[CV 4/5] END max_depth=25, min_samples_leaf=2, min_samples_split=2, n_estimators=400;, score=-35.019 total time= 8.7min
+[CV 2/5] END max_depth=25, min_samples_leaf=2, min_samples_split=6, n_estimators=400;, score=-34.603 total time= 8.5min
+[CV 4/5] END max_depth=25, min_samples_leaf=4, min_samples_split=4, n_estimators=300;, score=-35.060 total time= 5.8min
+[CV 1/5] END max_depth=25, min_samples_leaf=4, min_samples_split=6, n_estimators=500;, score=-34.697 total time= 9.6min
+[CV 5/5] END max_depth=30, min_samples_leaf=1, min_samples_split=4, n_estimators=400;, score=-35.017 total time= 9.2min
+[CV 4/5] END max_depth=30, min_samples_leaf=2, min_samples_split=2, n_estimators=400;, score=-35.024 total time= 8.7min
+[CV 1/5] END max_depth=30, min_samples_leaf=2, min_samples_split=6, n_estimators=400;, score=-34.677 total time= 8.4min
+[CV 3/5] END max_depth=30, min_samples_leaf=4, min_samples_split=4, n_estimators=300;, score=-34.224 total time= 5.8min
+[CV 5/5] END max_depth=30, min_samples_leaf=4, min_samples_split=6, n_estimators=400;, score=-34.943 total time= 6.0min
+/csl/users/2026nnandaku/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+[CV 2/5] END max_depth=15, min_samples_leaf=1, min_samples_split=2, n_estimators=300;, score=-34.783 total time= 7.6min
+[CV 1/5] END max_depth=15, min_samples_leaf=1, min_samples_split=6, n_estimators=400;, score=-34.785 total time= 7.6min
+[CV 3/5] END max_depth=15, min_samples_leaf=2, min_samples_split=4, n_estimators=300;, score=-34.360 total time= 5.6min
+[CV 3/5] END max_depth=15, min_samples_leaf=2, min_samples_split=6, n_estimators=400;, score=-34.355 total time= 7.5min
+[CV 4/5] END max_depth=15, min_samples_leaf=4, min_samples_split=4, n_estimators=300;, score=-35.159 total time= 5.5min
+[CV 1/5] END max_depth=15, min_samples_leaf=4, min_samples_split=6, n_estimators=500;, score=-34.770 total time= 8.9min
+[CV 1/5] END max_depth=20, min_samples_leaf=1, min_samples_split=4, n_estimators=500;, score=-34.705 total time=11.2min
+[CV 3/5] END max_depth=20, min_samples_leaf=2, min_samples_split=4, n_estimators=200;, score=-34.289 total time= 4.2min
+[CV 1/5] END max_depth=20, min_samples_leaf=2, min_samples_split=6, n_estimators=200;, score=-34.695 total time= 4.1min
+[CV 3/5] END max_depth=20, min_samples_leaf=2, min_samples_split=6, n_estimators=500;, score=-34.222 total time=10.4min
+[CV 1/5] END max_depth=20, min_samples_leaf=4, min_samples_split=6, n_estimators=300;, score=-34.708 total time= 5.7min
+[CV 3/5] END max_depth=25, min_samples_leaf=1, min_samples_split=2, n_estimators=400;, score=-34.334 total time=10.4min
+[CV 4/5] END max_depth=25, min_samples_leaf=1, min_samples_split=6, n_estimators=400;, score=-35.045 total time= 8.7min
+[CV 1/5] END max_depth=25, min_samples_leaf=2, min_samples_split=4, n_estimators=400;, score=-34.686 total time= 8.7min
+[CV 3/5] END max_depth=25, min_samples_leaf=4, min_samples_split=2, n_estimators=300;, score=-34.224 total time= 5.8min
+[CV 5/5] END max_depth=25, min_samples_leaf=4, min_samples_split=4, n_estimators=400;, score=-34.939 total time= 7.7min
+[CV 2/5] END max_depth=30, min_samples_leaf=1, min_samples_split=2, n_estimators=400;, score=-34.770 total time= 9.9min
+[CV 3/5] END max_depth=30, min_samples_leaf=1, min_samples_split=6, n_estimators=300;, score=-34.318 total time= 6.6min
+[CV 5/5] END max_depth=30, min_samples_leaf=2, min_samples_split=2, n_estimators=400;, score=-34.959 total time= 8.6min
+[CV 2/5] END max_depth=30, min_samples_leaf=2, min_samples_split=6, n_estimators=400;, score=-34.602 total time= 8.4min
+[CV 4/5] END max_depth=30, min_samples_leaf=4, min_samples_split=4, n_estimators=300;, score=-35.056 total time= 5.7min
+[CV 1/5] END max_depth=30, min_samples_leaf=4, min_samples_split=6, n_estimators=500;, score=-34.698 total time= 7.3min
+/csl/users/2026nnandaku/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+[CV 1/5] END max_depth=15, min_samples_leaf=1, min_samples_split=2, n_estimators=200;, score=-34.826 total time= 5.2min
+[CV 4/5] END max_depth=15, min_samples_leaf=1, min_samples_split=4, n_estimators=400;, score=-35.177 total time= 7.8min
+[CV 1/5] END max_depth=15, min_samples_leaf=2, min_samples_split=2, n_estimators=400;, score=-34.756 total time= 7.7min
+[CV 4/5] END max_depth=15, min_samples_leaf=2, min_samples_split=6, n_estimators=300;, score=-35.155 total time= 5.7min
+[CV 4/5] END max_depth=15, min_samples_leaf=4, min_samples_split=2, n_estimators=500;, score=-35.144 total time= 9.0min
+[CV 4/5] END max_depth=20, min_samples_leaf=1, min_samples_split=2, n_estimators=200;, score=-35.142 total time= 4.8min
+[CV 3/5] END max_depth=20, min_samples_leaf=1, min_samples_split=4, n_estimators=300;, score=-34.331 total time= 6.8min
+[CV 3/5] END max_depth=20, min_samples_leaf=1, min_samples_split=6, n_estimators=400;, score=-34.286 total time= 8.7min
+[CV 1/5] END max_depth=20, min_samples_leaf=2, min_samples_split=4, n_estimators=400;, score=-34.678 total time= 8.7min
+[CV 3/5] END max_depth=20, min_samples_leaf=4, min_samples_split=2, n_estimators=300;, score=-34.228 total time= 5.8min
+[CV 4/5] END max_depth=20, min_samples_leaf=4, min_samples_split=4, n_estimators=400;, score=-35.051 total time= 7.8min
+[CV 1/5] END max_depth=25, min_samples_leaf=1, min_samples_split=2, n_estimators=400;, score=-34.779 total time=10.3min
+[CV 4/5] END max_depth=25, min_samples_leaf=1, min_samples_split=6, n_estimators=300;, score=-35.054 total time= 6.6min
+[CV 1/5] END max_depth=25, min_samples_leaf=2, min_samples_split=2, n_estimators=500;, score=-34.672 total time=10.8min
+[CV 2/5] END max_depth=25, min_samples_leaf=4, min_samples_split=2, n_estimators=200;, score=-34.622 total time= 3.9min
+[CV 4/5] END max_depth=25, min_samples_leaf=4, min_samples_split=2, n_estimators=500;, score=-35.044 total time= 9.7min
+[CV 1/5] END max_depth=30, min_samples_leaf=1, min_samples_split=2, n_estimators=300;, score=-34.782 total time= 7.5min
+[CV 3/5] END max_depth=30, min_samples_leaf=1, min_samples_split=4, n_estimators=400;, score=-34.322 total time= 9.2min
+[CV 2/5] END max_depth=30, min_samples_leaf=2, min_samples_split=2, n_estimators=400;, score=-34.615 total time= 8.6min
+[CV 4/5] END max_depth=30, min_samples_leaf=2, min_samples_split=6, n_estimators=300;, score=-35.033 total time= 6.3min
+[CV 1/5] END max_depth=30, min_samples_leaf=4, min_samples_split=2, n_estimators=500;, score=-34.698 total time= 9.7min
+[CV 3/5] END max_depth=30, min_samples_leaf=4, min_samples_split=6, n_estimators=500;, score=-34.220 total time= 6.9min
+/csl/users/2026nnandaku/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+[CV 3/5] END max_depth=15, min_samples_leaf=1, min_samples_split=2, n_estimators=400;, score=-34.418 total time= 9.0min
+[CV 4/5] END max_depth=15, min_samples_leaf=1, min_samples_split=6, n_estimators=400;, score=-35.171 total time= 7.7min
+[CV 2/5] END max_depth=15, min_samples_leaf=2, min_samples_split=4, n_estimators=400;, score=-34.665 total time= 7.6min
+[CV 4/5] END max_depth=15, min_samples_leaf=4, min_samples_split=2, n_estimators=300;, score=-35.159 total time= 5.5min
+[CV 1/5] END max_depth=15, min_samples_leaf=4, min_samples_split=4, n_estimators=500;, score=-34.770 total time= 9.0min
+[CV 3/5] END max_depth=20, min_samples_leaf=1, min_samples_split=2, n_estimators=500;, score=-34.327 total time=12.2min
+[CV 1/5] END max_depth=20, min_samples_leaf=2, min_samples_split=2, n_estimators=400;, score=-34.678 total time= 8.7min
+[CV 3/5] END max_depth=20, min_samples_leaf=2, min_samples_split=6, n_estimators=300;, score=-34.233 total time= 6.3min
+[CV 5/5] END max_depth=20, min_samples_leaf=4, min_samples_split=2, n_estimators=400;, score=-34.945 total time= 7.7min
+[CV 2/5] END max_depth=20, min_samples_leaf=4, min_samples_split=6, n_estimators=400;, score=-34.582 total time= 7.8min
+[CV 4/5] END max_depth=25, min_samples_leaf=1, min_samples_split=4, n_estimators=300;, score=-35.082 total time= 7.0min
+[CV 3/5] END max_depth=25, min_samples_leaf=1, min_samples_split=6, n_estimators=400;, score=-34.298 total time= 8.8min
+[CV 3/5] END max_depth=25, min_samples_leaf=2, min_samples_split=4, n_estimators=300;, score=-34.237 total time= 6.4min
+[CV 5/5] END max_depth=25, min_samples_leaf=2, min_samples_split=6, n_estimators=400;, score=-34.937 total time= 8.4min
+[CV 2/5] END max_depth=25, min_samples_leaf=4, min_samples_split=4, n_estimators=400;, score=-34.587 total time= 7.7min
+[CV 4/5] END max_depth=30, min_samples_leaf=1, min_samples_split=2, n_estimators=300;, score=-35.123 total time= 7.5min
+[CV 3/5] END max_depth=30, min_samples_leaf=1, min_samples_split=4, n_estimators=500;, score=-34.320 total time=11.8min
+[CV 1/5] END max_depth=30, min_samples_leaf=2, min_samples_split=4, n_estimators=300;, score=-34.681 total time= 6.6min
+[CV 3/5] END max_depth=30, min_samples_leaf=2, min_samples_split=6, n_estimators=400;, score=-34.212 total time= 8.5min
+[CV 5/5] END max_depth=30, min_samples_leaf=4, min_samples_split=4, n_estimators=300;, score=-34.947 total time= 5.9min
+[CV 2/5] END max_depth=30, min_samples_leaf=4, min_samples_split=6, n_estimators=500;, score=-34.577 total time= 7.1min
+/csl/users/2026nnandaku/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+[CV 5/5] END max_depth=15, min_samples_leaf=2, min_samples_split=2, n_estimators=300;, score=-35.067 total time= 5.7min
+[CV 3/5] END max_depth=15, min_samples_leaf=2, min_samples_split=4, n_estimators=500;, score=-34.348 total time= 9.5min
+[CV 4/5] END max_depth=15, min_samples_leaf=4, min_samples_split=4, n_estimators=200;, score=-35.174 total time= 3.6min
+[CV 4/5] END max_depth=15, min_samples_leaf=4, min_samples_split=6, n_estimators=200;, score=-35.174 total time= 3.6min
+[CV 5/5] END max_depth=20, min_samples_leaf=1, min_samples_split=2, n_estimators=200;, score=-35.108 total time= 4.7min
+[CV 2/5] END max_depth=20, min_samples_leaf=1, min_samples_split=4, n_estimators=300;, score=-34.718 total time= 6.7min
+[CV 2/5] END max_depth=20, min_samples_leaf=1, min_samples_split=6, n_estimators=400;, score=-34.677 total time= 8.6min
+[CV 3/5] END max_depth=20, min_samples_leaf=2, min_samples_split=4, n_estimators=300;, score=-34.245 total time= 6.4min
+[CV 5/5] END max_depth=20, min_samples_leaf=2, min_samples_split=6, n_estimators=400;, score=-34.949 total time= 8.3min
+[CV 1/5] END max_depth=20, min_samples_leaf=4, min_samples_split=4, n_estimators=500;, score=-34.694 total time= 9.6min
+[CV 3/5] END max_depth=25, min_samples_leaf=1, min_samples_split=2, n_estimators=500;, score=-34.335 total time=12.5min
+[CV 2/5] END max_depth=25, min_samples_leaf=2, min_samples_split=2, n_estimators=300;, score=-34.645 total time= 6.4min
+[CV 4/5] END max_depth=25, min_samples_leaf=2, min_samples_split=4, n_estimators=400;, score=-35.019 total time= 8.6min
+[CV 1/5] END max_depth=25, min_samples_leaf=4, min_samples_split=2, n_estimators=400;, score=-34.713 total time= 7.7min
+[CV 5/5] END max_depth=25, min_samples_leaf=4, min_samples_split=6, n_estimators=200;, score=-34.952 total time= 3.9min
+[CV 5/5] END max_depth=30, min_samples_leaf=1, min_samples_split=2, n_estimators=200;, score=-35.101 total time= 4.9min
+[CV 3/5] END max_depth=30, min_samples_leaf=1, min_samples_split=4, n_estimators=300;, score=-34.349 total time= 6.9min
+[CV 1/5] END max_depth=30, min_samples_leaf=1, min_samples_split=6, n_estimators=400;, score=-34.715 total time= 8.8min
+[CV 3/5] END max_depth=30, min_samples_leaf=2, min_samples_split=4, n_estimators=300;, score=-34.237 total time= 6.5min
+[CV 1/5] END max_depth=30, min_samples_leaf=2, min_samples_split=6, n_estimators=500;, score=-34.662 total time=10.5min
+[CV 1/5] END max_depth=30, min_samples_leaf=4, min_samples_split=6, n_estimators=200;, score=-34.750 total time= 3.9min
+[CV 5/5] END max_depth=30, min_samples_leaf=4, min_samples_split=6, n_estimators=500;, score=-34.926 total time= 6.9min
+/csl/users/2026nnandaku/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+[CV 4/5] END max_depth=15, min_samples_leaf=1, min_samples_split=2, n_estimators=200;, score=-35.215 total time= 5.7min
+[CV 2/5] END max_depth=15, min_samples_leaf=1, min_samples_split=6, n_estimators=200;, score=-34.771 total time= 3.8min
+[CV 2/5] END max_depth=15, min_samples_leaf=1, min_samples_split=6, n_estimators=500;, score=-34.718 total time= 9.4min
+[CV 1/5] END max_depth=15, min_samples_leaf=2, min_samples_split=6, n_estimators=200;, score=-34.777 total time= 3.8min
+[CV 5/5] END max_depth=15, min_samples_leaf=2, min_samples_split=6, n_estimators=500;, score=-35.036 total time= 9.2min
+[CV 2/5] END max_depth=15, min_samples_leaf=4, min_samples_split=6, n_estimators=300;, score=-34.666 total time= 5.3min
+[CV 3/5] END max_depth=20, min_samples_leaf=1, min_samples_split=2, n_estimators=400;, score=-34.330 total time= 9.4min
+[CV 5/5] END max_depth=20, min_samples_leaf=1, min_samples_split=6, n_estimators=300;, score=-35.017 total time= 6.5min
+[CV 3/5] END max_depth=20, min_samples_leaf=2, min_samples_split=2, n_estimators=500;, score=-34.231 total time=10.6min
+[CV 4/5] END max_depth=20, min_samples_leaf=4, min_samples_split=2, n_estimators=200;, score=-35.080 total time= 3.8min
+[CV 1/5] END max_depth=20, min_samples_leaf=4, min_samples_split=4, n_estimators=200;, score=-34.752 total time= 3.8min
+[CV 3/5] END max_depth=20, min_samples_leaf=4, min_samples_split=4, n_estimators=500;, score=-34.221 total time= 9.8min
+[CV 4/5] END max_depth=25, min_samples_leaf=1, min_samples_split=4, n_estimators=200;, score=-35.103 total time= 4.6min
+[CV 1/5] END max_depth=25, min_samples_leaf=1, min_samples_split=6, n_estimators=300;, score=-34.707 total time= 7.0min
+[CV 1/5] END max_depth=25, min_samples_leaf=2, min_samples_split=2, n_estimators=400;, score=-34.686 total time= 8.8min
+[CV 5/5] END max_depth=25, min_samples_leaf=2, min_samples_split=6, n_estimators=200;, score=-34.979 total time= 4.2min
+[CV 3/5] END max_depth=25, min_samples_leaf=4, min_samples_split=2, n_estimators=200;, score=-34.264 total time= 3.8min
+[CV 5/5] END max_depth=25, min_samples_leaf=4, min_samples_split=2, n_estimators=500;, score=-34.923 total time= 9.6min
+[CV 2/5] END max_depth=30, min_samples_leaf=1, min_samples_split=2, n_estimators=300;, score=-34.778 total time= 7.4min
+[CV 4/5] END max_depth=30, min_samples_leaf=1, min_samples_split=4, n_estimators=400;, score=-35.069 total time= 9.2min
+[CV 3/5] END max_depth=30, min_samples_leaf=2, min_samples_split=2, n_estimators=400;, score=-34.221 total time= 8.6min
+[CV 5/5] END max_depth=30, min_samples_leaf=2, min_samples_split=6, n_estimators=300;, score=-34.954 total time= 6.3min
+[CV 2/5] END max_depth=30, min_samples_leaf=4, min_samples_split=2, n_estimators=500;, score=-34.577 total time= 9.6min
+[CV 4/5] END max_depth=30, min_samples_leaf=4, min_samples_split=6, n_estimators=500;, score=-35.043 total time= 7.1min
+/csl/users/2026nnandaku/.local/lib/python3.8/site-packages/pandas/core/computation/expressions.py:20: UserWarning: Pandas requires version '2.7.3' or newer of 'numexpr' (version '2.7.1' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+
+Grid Search Complete. Best Params:
+{'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 6, 'n_estimators': 500}
+Training final model on full dataset...
+Final model training complete
+
+Final Model MAE:  15.747
+Final Model RMSE: 21.605
+Final Model R²:   0.920
+Model saved to /csl/users/2026nnandaku/cluster/PolymerDesign/tg_predictor_rf_final.pkl

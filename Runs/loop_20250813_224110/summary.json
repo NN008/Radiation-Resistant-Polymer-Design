@@ -1,0 +1,15 @@
+{
+  "run_dir": "/csl/users/2026nnandaku/cluster/PolymerDesign/Runs/loop_20250813_224110",
+  "n_candidates": 8,
+  "n_scored": 8,
+  "n_hits": 3,
+  "best_score": 14.39255357237664,
+  "thresholds": {
+    "Tg": 215.0,
+    "MAC": 0.0569
+  },
+  "selected_k": -1,
+  "selected_csv": "/csl/users/2026nnandaku/cluster/PolymerDesign/Runs/loop_20250813_224110/out_next/selected_next_batch.csv",
+  "labels_csv": "/csl/users/2026nnandaku/cluster/PolymerDesign/Runs/loop_20250813_224110/out_next/promotion_labels.csv",
+  "note": "Models kept frozen; no retraining."
+}

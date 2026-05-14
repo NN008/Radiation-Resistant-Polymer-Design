@@ -1,0 +1,15 @@
+{
+  "run_dir": "/csl/users/2026nnandaku/cluster/PolymerDesign/Runs/loop_20250813_173907",
+  "n_candidates": 8,
+  "n_scored": 8,
+  "n_hits": 4,
+  "best_score": 7.285924502023912,
+  "thresholds": {
+    "Tg": 203.7,
+    "MAC": 0.0569
+  },
+  "selected_k": -1,
+  "selected_csv": "/csl/users/2026nnandaku/cluster/PolymerDesign/Runs/loop_20250813_173907/out_next/selected_next_batch.csv",
+  "labels_csv": "/csl/users/2026nnandaku/cluster/PolymerDesign/Runs/loop_20250813_173907/out_next/promotion_labels.csv",
+  "models_snapshot": "/csl/users/2026nnandaku/cluster/PolymerDesign/Runs/loop_20250813_173907/models_snapshot"
+}

@@ -1,0 +1,22 @@
+[generate] running run_pipeline.py in /csl/users/2026nnandaku/cluster/PolymerDesign
+[setup] device=cuda:0
+[load] using bundle directory Transformer/bundle
+[resume] processed=20000, seen=3009, heap=9, passed_seen=9
+[thresh] using Tg>203.71 °C, MAC>0.0569
+[cond] TARGET scaled → Tg=0.384, MAC=0.410
+[final] rescoring all seen SMILES to produce unfiltered top-200…
+Tg_pred (°C)  p50/p90/p95/max: 137.37992340327511 191.01368537182282 205.00096760288332 331.4732819272545
+MAC_pred      p50/p90/p95/max: 0.056889362715066075 0.05689718048009966 0.056901147741452794 0.05706878483888475
+[done] strict_top200 → ./polymer_candidates.csv (rows=9)
+[done] passed_all (cumulative) → ./polymer_passed_all.csv
+[done] unfiltered_top200 → ./polymer_top200_unfiltered.csv (rows=200)
+[done] near_misses → ./polymer_near_misses.csv (rows=423)
+[generate] copied → loops/loop_20250813_001840/polymer_candidates.csv (n=9)
+[featurize] /csl/users/2026nnandaku/.conda/envs/polymer_env/bin/python featurize_new_valids.py --in loops/loop_20250813_001840/polymer_candidates.csv --out loops/loop_20250813_001840/valid_with_desc.csv --cache data/desc_cache.csv
+[featurize] wrote loops/loop_20250813_001840/valid_with_desc.csv with columns: MolWt, ExactMolWt, HeavyAtomMolWt, MolLogP, TPSA, NumHAcceptors, NumHDonors, NumRings, FractionCSP3, LabuteASA, BalabanJ, BertzCT, Chi0v, Chi1n, Kappa1, Kappa2, NumHeavyAtoms
+[cache]     using data/desc_cache.csv
+[predict]  /csl/users/2026nnandaku/.conda/envs/polymer_env/bin/python predict_batch.py --in loops/loop_20250813_001840/valid_with_desc.csv --out loops/loop_20250813_001840/predicted.csv --hits loops/loop_20250813_001840/hits.csv --models models --tg 203.7 --mac 0.0569
+[predict] wrote loops/loop_20250813_001840/predicted.csv  (n=9)
+[hits]    wrote loops/loop_20250813_001840/hits.csv (n_hits=0, hit_rate=0.000)
+[summary]  → loops/loop_20250813_001840/summary.json
+✔ One-loop pass complete (features via featurize_new_valids.py, scoring via predict_batch.py).

@@ -1,0 +1,15 @@
+=== Selection Report ===
+
+Total candidates: 2
+RDKit available: False
+Clusters formed: 1
+Requested/Effective K: 2, Selected: 2
+Min similarity for Butina (if used): 0.700
+
+Selected (sorted by score):
+                  SMILES    Tg_pred  MAC_pred    score  cluster_id  rank_in_cluster
+  *C(=O)Nc1ccc(*)c(O)c1O 125.252600  0.057759 7.234476           0                1
+*C(=O)NNC(=O)c1ccc(*)nc1 123.932405  0.057883 7.173563           0                2
+
+Cluster sizes:
+  - Cluster 0: 2

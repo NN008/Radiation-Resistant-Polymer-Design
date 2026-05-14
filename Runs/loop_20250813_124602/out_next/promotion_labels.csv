@@ -1,0 +1,5 @@
+SMILES,Tg_true,MAC_true,flags,notes
+*C(=O)Nc1ccc(*)n1N,115.36650120251181,0.05867489716230801,ok,"proxy=avg(current_pred,independent_model)"
+*C(=O)Nc1ccc(*)nc1O,115.35720846915663,0.05868038217225946,ok,"proxy=avg(current_pred,independent_model)"
+*C(=O)Nc1ccc(*)c(O)c1O,115.4062910241908,0.05863682832407605,ok,"proxy=avg(current_pred,independent_model)"
+*C(=O)Nc1ccc(NC(=O)c2ccc(*)o2)o1,135.2227655578037,0.0577753409101712,ok,"proxy=avg(current_pred,independent_model)"

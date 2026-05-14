@@ -1,0 +1,6 @@
+*C(=O)NNC(=O)c1ccc(*)nc1
+*C(=O)NNC(=O)c1ccc(*)nc1
+*C(=O)Nc1ccc(*)c(O)c1O
+*C(=O)NNC(=O)c1ccc(*)nc1
+*C(=O)NNC(=O)c1ccc(*)nc1
+*C(=O)NNC(=O)c1ccc(*)nc1
