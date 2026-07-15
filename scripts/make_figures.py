@@ -168,7 +168,7 @@ PROJ = Path(args.proj_root).expanduser()
 RUNS = Path(args.runs_root).expanduser()
 RUN_DIR = Path(args.run_dir).expanduser() if args.run_dir else newest_subdir(RUNS)
 
-FIGDIR = PROJ / "Figures2"
+FIGDIR = PROJ / "assets" / "Figures2"
 ensure_dir(FIGDIR)
 
 print(f"[INFO] Using run: {RUN_DIR}")

@@ -80,7 +80,7 @@ def fig_tokenizer_pretty(out="Tokenizer_Conditioning.png"):
 # -------- NEW: 16-panel descriptor thresholds (no RDKit needed) --------
 
 def fig_descriptor_thresholds_from_final(
-    out="Descriptor_Thresholds2.png",
+    out="assets/Descriptor_Thresholds2.png",
     src_path="1Dataset/PI1M_Tg_MAC.csv",
     save_individual=False,
     individual_dir="DescriptorPanels"
@@ -199,7 +199,7 @@ def fig_descriptor_thresholds_from_final(
 
 # ================== RESULTS FIGS =================
 
-def fig_pareto(in_csv="generated_candidates.csv", out="Pareto_Tg_MAC.png"):
+def fig_pareto(in_csv="logs/generated_candidates.csv", out="assets/Pareto_Tg_MAC.png"):
     df = _read(in_csv)
     if df is None: return
     fig = plt.figure(figsize=(7.2, 5.4))
@@ -232,7 +232,7 @@ def _wilson_interval(k, n, z=1.96):
     half = z * sqrt((p*(1-p) + z*z/(4*n)) / n) / denom
     return (max(0.0, center - half), min(1.0, center + half))
 
-def fig_rounds(in_csv="round_metrics.csv", out="Round_HitRate.png"):
+def fig_rounds(in_csv="logs/round_metrics.csv", out="assets/Round_HitRate.png"):
     df = _read(in_csv)
     if df is None or not {"n_samples", "hit_count"}.issubset(df.columns):
         print("[info] no round_metrics; skipping.")
@@ -263,10 +263,10 @@ def fig_rounds(in_csv="round_metrics.csv", out="Round_HitRate.png"):
 if __name__ == "__main__":
     # Methods
     fig_descriptor_thresholds_from_final(
-        out="Descriptor_Thresholds2.png",
+        out="assets/Descriptor_Thresholds2.png",
         src_path="1Dataset/PI1M_with_Tg_Final.csv",
         save_individual=False   # set True to also dump 16 separate PNGs
     )
-    fig_pareto("generated_candidates.csv", "Pareto_Tg_MAC.png")
-    print("Pareto figure saved as Pareto_Tg_MAC.png")
+    fig_pareto("logs/generated_candidates.csv", "assets/Pareto_Tg_MAC.png")
+    print("Pareto figure saved as assets/Pareto_Tg_MAC.png")
     plt.show()
