@@ -64,12 +64,20 @@ Datasets and pseudocode are too large for GitHub and are hosted on Zenodo:
 
 ## Structure
 ```
-PolymerDesign/
-├── data_preprocessing/      # Dataset merging, SMILES standardization, descriptor computation
-├── surrogate_models/        # RF regressors for Tg and MAC
-├── transformer/             # Property-conditional SMILES generator
-├── scoring/                 # Candidate scoring, clustering, and selection
-└── closed_loop/             # Full pipeline and optimization loop
+Radiation-Resistant-Polymer-Design/
+├── 1Dataset/            # Dataset merging, SMILES standardization, descriptor computation
+├── 2Predictors/         # RF regressors for Tg and MAC (surrogate models)
+├── 3Smile_Generation/   # Property-conditional Transformer generator
+├── 4Validation/         # Candidate scoring, validation, and output batches
+├── data/                # Descriptor cache, pooled data
+├── Runs/                # Timestamped closed-loop run artifacts
+├── out_next/            # Staging dir the closed loop reads its next batch from
+├── scripts/             # Standalone figure/report generation scripts (run from repo root)
+├── logs/                # Aggregated CSV outputs used by the figure scripts (round_metrics, generated_candidates, etc.)
+├── assets/              # Generated figures for the poster/paper (Figures/, Figures2/, MethodFigs/, ...)
+├── run_loop_once.py     # Main closed-loop driver (run from repo root)
+├── README.md
+└── Pub_readme.md        # Companion README for the Zenodo data release
 ```
 
 ## Usage

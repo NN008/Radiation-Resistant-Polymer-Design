@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyBboxPatch, FancyArrowPatch, Circle
 
-def draw_pipeline(out_png="Dataset_Enrichment_Pipeline_FINAL.png",
-                  out_svg="Dataset_Enrichment_Pipeline_FINAL.svg"):
+def draw_pipeline(out_png="assets/Dataset_Enrichment_Pipeline_FINAL.png",
+                  out_svg="assets/Dataset_Enrichment_Pipeline_FINAL.svg"):
     fig, ax = plt.subplots(figsize=(9.5, 5.8))
     ax.axis("off")
 

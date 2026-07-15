@@ -13,6 +13,8 @@ MAC_THRESH = 0.0569
 ROOT = Path(".")
 RUNS = sorted((ROOT/"Runs").glob("loop_*"))
 VALS = sorted((ROOT/"4Validation/Outputs").glob("Out*"))
+LOGS = ROOT/"logs"
+LOGS.mkdir(exist_ok=True)
 
 # ----------------- helpers: de-duplicate / sanitize -----------------
 
@@ -123,8 +125,8 @@ if rows:
     clean_rows = [sanitize_df(r) for r in rows]
     gen = pd.concat(clean_rows, ignore_index=True, sort=False)
     gen = sanitize_df(gen)
-    gen.to_csv("generated_candidates.csv", index=False)
-    print("[OK] generated_candidates.csv", gen.shape)
+    gen.to_csv(LOGS/"generated_candidates.csv", index=False)
+    print("[OK] logs/generated_candidates.csv", gen.shape)
 else:
     print("[WARN] No candidate rows found. Check Runs/*/predicted.csv etc.")
 
@@ -146,8 +148,8 @@ for loop in RUNS:
 if sw_rows:
     sw = pd.concat(sw_rows, ignore_index=True, sort=False)
     sw = sanitize_df(sw)
-    sw.to_csv("conditional_sweeps.csv", index=False)
-    print("[OK] conditional_sweeps.csv", sw.shape)
+    sw.to_csv(LOGS/"conditional_sweeps.csv", index=False)
+    print("[OK] logs/conditional_sweeps.csv", sw.shape)
 else:
     print("[info] No conditional sweeps found (ok to skip).")
 
@@ -170,7 +172,7 @@ for loop in RUNS:
 if rm_rows:
     rmdf = pd.DataFrame(rm_rows)
     rmdf = sanitize_df(rmdf)
-    rmdf.to_csv("round_metrics.csv", index=False)
-    print("[OK] round_metrics.csv", len(rmdf))
+    rmdf.to_csv(LOGS/"round_metrics.csv", index=False)
+    print("[OK] logs/round_metrics.csv", len(rmdf))
 else:
     print("[info] No round metrics (predicted.csv) found; skip rounds figure.")
